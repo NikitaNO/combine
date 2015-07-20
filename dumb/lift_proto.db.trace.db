@@ -1,0 +1,256 @@
+01-24 17:14:28 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435. \u041e\u0431\u044a\u044f\u0432\u043b\u04... (2666)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435. \u041e\u0431\u044a\u044f\u0432\u043b\u04... (2666)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feedtype,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+01-24 17:14:31 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('[\u041e\u0442\u0440\u0435\u0434\u0430\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043e: \u0432\u0447\u0435\u0... (3510)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('[\u041e\u0442\u0440\u0435\u0434\u0430\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043e: \u0432\u0447\u0435\u0... (3510)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feedtype,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+01-24 17:14:38 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0414\u043e\u0431\u0440\u044b\u0439 \u0434\u0435\u043d\u044c! \u041d\u0443\u0436\u043d\u044b \u0441\u0442\u0430\u... (2642)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0414\u043e\u0431\u0440\u044b\u0439 \u0434\u0435\u043d\u044c! \u041d\u0443\u0436\u043d\u044b \u0441\u0442\u0430\u... (2642)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feedtype,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+01-24 17:14:46 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0414\u043b\u044f \u0440\u0430\u0437\u0434\u0435\u043b\u0430 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 http://fa... (2518)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0414\u043b\u044f \u0440\u0430\u0437\u0434\u0435\u043b\u0430 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 http://fa... (2518)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feedtype,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+01-24 17:14:47 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0422\u0440\u0435\u0431\u0443\u044e\u0442\u0441\u044f \u0442\u0435\u0441\u0442\u0435\u0440\u044b\u043a\u043e\u043... (1847)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0422\u0440\u0435\u0431\u0443\u044e\u0442\u0441\u044f \u0442\u0435\u0441\u0442\u0435\u0440\u044b\u043a\u043e\u043... (1847)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feedtype,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+01-24 17:14:50 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u041f\u0440\u0435\u0434\u043c\u0435\u0442: \u0423\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u041a\u0... (3155)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u041f\u0440\u0435\u0434\u043c\u0435\u0442: \u0423\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u041a\u0... (3155)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feedtype,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+01-24 17:15:09 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435. \u041e\u0431\u044a\u044f\u0432\u043b\u04... (2666)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435. \u041e\u0431\u044a\u044f\u0432\u043b\u04... (2666)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feedtype,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+01-24 17:15:12 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('[\u041e\u0442\u0440\u0435\u0434\u0430\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043e: \u0432\u0447\u0435\u0... (3510)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('[\u041e\u0442\u0440\u0435\u0434\u0430\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043e: \u0432\u0447\u0435\u0... (3510)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feedtype,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+01-24 17:15:19 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0414\u043e\u0431\u0440\u044b\u0439 \u0434\u0435\u043d\u044c! \u041d\u0443\u0436\u043d\u044b \u0441\u0442\u0430\u... (2642)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0414\u043e\u0431\u0440\u044b\u0439 \u0434\u0435\u043d\u044c! \u041d\u0443\u0436\u043d\u044b \u0441\u0442\u0430\u... (2642)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feedtype,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+01-24 17:15:26 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0414\u043b\u044f \u0440\u0430\u0437\u0434\u0435\u043b\u0430 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 http://fa... (2518)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0414\u043b\u044f \u0440\u0430\u0437\u0434\u0435\u043b\u0430 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 http://fa... (2518)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feedtype,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+01-24 17:15:26 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0422\u0440\u0435\u0431\u0443\u044e\u0442\u0441\u044f \u0442\u0435\u0441\u0442\u0435\u0440\u044b\u043a\u043e\u043... (1847)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0422\u0440\u0435\u0431\u0443\u044e\u0442\u0441\u044f \u0442\u0435\u0441\u0442\u0435\u0440\u044b\u043a\u043e\u043... (1847)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feedtype,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+01-24 17:15:29 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u041f\u0440\u0435\u0434\u043c\u0435\u0442: \u0423\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u041a\u0... (3155)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u041f\u0440\u0435\u0434\u043c\u0435\u0442: \u0423\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u041a\u0... (3155)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feedtype,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-08 12:59:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u044... (1744)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u044... (1744)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feedtype,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-08 12:59:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u041d\u0443\u0436\u043d\u043e \u0434\u043e\u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c PHP \u043a\u043e\u0434... (2713)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u041d\u0443\u0436\u043d\u043e \u0434\u043e\u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c PHP \u043a\u043e\u0434... (2713)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feedtype,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-08 12:59:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u044... (1744)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u044... (1744)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feedtype,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-08 12:59:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u041d\u0443\u0436\u043d\u043e \u0434\u043e\u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c PHP \u043a\u043e\u0434... (2713)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u041d\u0443\u0436\u043d\u043e \u0434\u043e\u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c PHP \u043a\u043e\u0434... (2713)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feedtype,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-08 13:00:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u044... (1744)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u044... (1744)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feedtype,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-08 13:00:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u041d\u0443\u0436\u043d\u043e \u0434\u043e\u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c PHP \u043a\u043e\u0434... (2713)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u041d\u0443\u0436\u043d\u043e \u0434\u043e\u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c PHP \u043a\u043e\u0434... (2713)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feedtype,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-08 13:00:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u044... (1744)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u044... (1744)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feedtype,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-08 13:00:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u041d\u0443\u0436\u043d\u043e \u0434\u043e\u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c PHP \u043a\u043e\u0434... (2713)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u041d\u0443\u0436\u043d\u043e \u0434\u043e\u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c PHP \u043a\u043e\u0434... (2713)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feedtype,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-08 13:00:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u044... (1744)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u044... (1744)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feedtype,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-08 13:00:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u041d\u0443\u0436\u043d\u043e \u0434\u043e\u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c PHP \u043a\u043e\u0434... (2713)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u041d\u0443\u0436\u043d\u043e \u0434\u043e\u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c PHP \u043a\u043e\u0434... (2713)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feedtype,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-08 13:00:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u044... (1744)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u044... (1744)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feedtype,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-08 13:00:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u041d\u0443\u0436\u043d\u043e \u0434\u043e\u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c PHP \u043a\u043e\u0434... (2713)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u041d\u0443\u0436\u043d\u043e \u0434\u043e\u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c PHP \u043a\u043e\u0434... (2713)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feedtype,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-08 13:00:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u044... (1744)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u044... (1744)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feedtype,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-08 13:00:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u041d\u0443\u0436\u043d\u043e \u0434\u043e\u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c PHP \u043a\u043e\u0434... (2713)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u041d\u0443\u0436\u043d\u043e \u0434\u043e\u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c PHP \u043a\u043e\u0434... (2713)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feedtype,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-08 13:16:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u044... (1744)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u044... (1744)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feedtype,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-08 13:16:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u041d\u0443\u0436\u043d\u043e \u0434\u043e\u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c PHP \u043a\u043e\u0434... (2713)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u041d\u0443\u0436\u043d\u043e \u0434\u043e\u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c PHP \u043a\u043e\u0434... (2713)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feedtype,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 19:12:09 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 19:12:09 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('185.20.224.117 \u0442\u0435\u0445.\u0434\u043e\u043c\u0435\u043d \u0441\u0430\u0439\u0442\u0430. \u0421\u0430\u043... (2352)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('185.20.224.117 \u0442\u0435\u0445.\u0434\u043e\u043c\u0435\u043d \u0441\u0430\u0439\u0442\u0430. \u0421\u0430\u043... (2352)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 19:16:08 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 19:16:08 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('185.20.224.117 \u0442\u0435\u0445.\u0434\u043e\u043c\u0435\u043d \u0441\u0430\u0439\u0442\u0430. \u0421\u0430\u043... (2352)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('185.20.224.117 \u0442\u0435\u0445.\u0434\u043e\u043c\u0435\u043d \u0441\u0430\u0439\u0442\u0430. \u0421\u0430\u043... (2352)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 19:20:09 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 19:20:09 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('185.20.224.117 \u0442\u0435\u0445.\u0434\u043e\u043c\u0435\u043d \u0441\u0430\u0439\u0442\u0430. \u0421\u0430\u043... (2352)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('185.20.224.117 \u0442\u0435\u0445.\u0434\u043e\u043c\u0435\u043d \u0441\u0430\u0439\u0442\u0430. \u0421\u0430\u043... (2352)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 19:24:08 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 19:24:08 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('185.20.224.117 \u0442\u0435\u0445.\u0434\u043e\u043c\u0435\u043d \u0441\u0430\u0439\u0442\u0430. \u0421\u0430\u043... (2352)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('185.20.224.117 \u0442\u0435\u0445.\u0434\u043e\u043c\u0435\u043d \u0441\u0430\u0439\u0442\u0430. \u0421\u0430\u043... (2352)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 19:28:08 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 19:28:08 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('185.20.224.117 \u0442\u0435\u0445.\u0434\u043e\u043c\u0435\u043d \u0441\u0430\u0439\u0442\u0430. \u0421\u0430\u043... (2352)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('185.20.224.117 \u0442\u0435\u0445.\u0434\u043e\u043c\u0435\u043d \u0441\u0430\u0439\u0442\u0430. \u0421\u0430\u043... (2352)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 19:32:09 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 19:32:09 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('185.20.224.117 \u0442\u0435\u0445.\u0434\u043e\u043c\u0435\u043d \u0441\u0430\u0439\u0442\u0430. \u0421\u0430\u043... (2352)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('185.20.224.117 \u0442\u0435\u0445.\u0434\u043e\u043c\u0435\u043d \u0441\u0430\u0439\u0442\u0430. \u0421\u0430\u043... (2352)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 19:36:08 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 19:36:08 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('185.20.224.117 \u0442\u0435\u0445.\u0434\u043e\u043c\u0435\u043d \u0441\u0430\u0439\u0442\u0430. \u0421\u0430\u043... (2352)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('185.20.224.117 \u0442\u0435\u0445.\u0434\u043e\u043c\u0435\u043d \u0441\u0430\u0439\u0442\u0430. \u0421\u0430\u043... (2352)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 19:40:09 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 19:44:09 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 19:48:09 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 19:52:11 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 19:56:09 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 20:00:09 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 20:04:09 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 20:08:08 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 20:12:09 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 20:16:09 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 20:20:09 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 20:24:08 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 20:28:09 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 20:32:09 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 20:36:09 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 20:40:08 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 21:18:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 21:22:23 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 21:27:11 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 21:28:12 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 21:30:15 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0442\u0440\u0435\u0431\u0443\u0435\u04... (2032)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]
+02-15 21:31:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('[\u041e\u0442\u0440\u0435\u0434\u0430\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043e: 13.02.2015 \u0432 03:... (1953)"
+Value too long for column "DESCRIPTION VARCHAR(1500)": "STRINGDECODE('[\u041e\u0442\u0440\u0435\u0434\u0430\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043e: 13.02.2015 \u0432 03:... (1953)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,feed,link_c,published,title) VALUES (?,?,?,?,?,?,?) [22001-167]

@@ -1,0 +1,7 @@
+mail.smtp.host=smtp.gmail.com
+mail.smtp.port=587
+mail.smtp.starttls.enable=true
+mail.smtp.auth=true
+mail.user=combine.freelance@gmail.com
+mail.password=combine12
+mail.admin=nikita.nagatkin@gmail.com

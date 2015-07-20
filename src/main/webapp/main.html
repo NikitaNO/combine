@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Combine</title>
+    <link href="styles/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="styles/uniform.default.min.css" rel="stylesheet" type="text/css">
+    <link href="styles/jquery-ui.css" rel="stylesheet" type="text/css">
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="wrap">
+
+    <!--Navigation bar start-->
+
+    <nav class="navbar navbar-combine">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand logo" href="#">Combine</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="lift:MainPage.renderHeader navbar-nav navbar-right">
+                    <li id="login"><a href="#" data-toggle="modal" data-target="#auth">Войти</a></li>
+                    <li id="logout"><a href="#">Выйти</a></li>
+                    <li class="signup" id="signup"><a href="#" data-toggle="modal" data-target="#registr">Регистрация</a></li>
+                    <li id="welcome-label"><a href="#">Добро пожаловать, user!</a></li>
+                </ul>
+            </div>
+                <!--Modals start-->
+
+                <div class="modal fade" id="auth" tabindex="-1" role="dialog" aria-labelledby="auth-label" aria-hidden="true">
+                    <div class="modal-dialog register">
+                        <div class="modal-content ">
+
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                <h4 class="modal-title" id="auth-label">Авторизация</h4>
+                            </div>
+                            <div class="lift:Modal.loginForm modal-body">
+                                <div data-lift="embed?what=_auth_modal"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="registr" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                    <div class="lift:Modal.registerForm?eager_eval=true modal-dialog register">
+                        <div data-lift="embed?what=_register_modal"></div>
+                    </div>
+                </div>
+
+                <!--Modals end-->
+
+            </div>
+    </nav>
+
+    <!--Navigation bar end-->
+    <!--Filters start-->
+
+    <div class="container">
+        <div class="row">
+            <div class="lift:MainPage.filters?eager_eval=true col-md-3 filters">
+                <div data-lift="embed?what=_filters"></div>
+            </div>
+
+            <!--Filters end-->
+            <!--Posts start-->
+
+            <div class="col-md-9 posts">
+                <div class="innerPosts">
+                    <div class="posts">
+                        <div class="row">
+                            <div class="col-md-9">
+                                <select id="sort" class="sort lift:MainPage.sortBySelector">
+                                    <option selected disabled>Sort by</option>
+                                    <option>From old to new</option>
+                                    <option>From new to old</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3 ordersNumber">
+                                <select id="posts-number" class="lift:MainPage.postsNumberSelector posts-number">
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-offset-9 col-md-3 currency-block">
+                                <div class="wrap">
+                                    <div class="lift:MainPage.currencyRub ">РУБ</div>
+                                    <div>|</div>
+                                    <div class="lift:MainPage.currencyUsd active-currency">USD</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 warning">
+                                <div>
+                                    <img src="images/warning.png" alt="Only registered users can view links">
+                                    <div>Только зарегистрированные пользователи могут видеть ссылки</div>
+                                    <img src="images/cross.png" alt="Close warning for unregistered users" class="cross">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lift:MainPage.renderPosts">
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-md-offset-0">
+                                <ul class="lift:MainPage.renderPagination pagination posts-pagination">
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!--Posts end-->
+    <!--Footer start-->
+
+    <footer id="footer">
+        <div data-lift="embed?what=_footer"></div>
+    </footer>
+
+    <!--Footer end-->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-59947540-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter28586981 = new Ya.Metrika({id:28586981,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/28586981" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/jquery.uniform.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animation.js"></script>
+</body>
+</html>

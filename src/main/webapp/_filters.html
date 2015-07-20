@@ -1,0 +1,58 @@
+<div class="innerFilters">
+    <div id="feeds">
+        <label>
+            <input type="checkbox" class="check" value="Advego" id="Advego" name="advego"/>
+            Advego
+        </label>
+        <label>
+            <input type="checkbox" class="check" value="WebLancer" id="WebLancer" name="weblancer"/>
+            WebLancer
+        </label>
+    </div>
+    <div class="form-group searchText">
+        <i></i>
+        <input type="text" placeholder="Поиск" class="searchInput"  id="text">
+    </div>
+    <div class="line"></div>
+    <div class="form-group searchText fromDate">
+        <p class="input-group">
+            <input placeholder="От" id="fromDate">
+                          <span class="input-group-btn">
+                            <button type="button" id="from-btn" class="btn btn-group calendar-button"></button>
+                          </span>
+        </p>
+    </div>
+    <div class="form-group searchText untilDate">
+        <p class="input-group">
+            <input type="text" placeholder="До" id="untilDate">
+                          <span class="input-group-btn">
+                            <button type="button" id="until-btn" class="btn btn-group calendar-button"></button>
+                          </span>
+        </p>
+    </div>
+
+    <div class="line"></div>
+    <div class="form-group budget">
+        <p class="input-group">
+            <label>Бюджет:</label>
+            <input id="min-amount" type="text">
+        <div> - </div>
+        <input id="max-amount" type="text">
+        </p>
+        <div class="input-group radio-block">
+            <div class="radioWrap">
+                <input type="radio" value="low-budget" id="low-budget" name="budg-radio"/>
+                От 0.0 до 1.0
+                <input type="radio" value="high-budget" id="high-budget" name="budg-radio" checked/>
+                От 1 до 1500
+            </div>
+        </div>
+    </div>
+    <div class="range-sl">
+        <div id="slider-range" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
+            <div class="ui-slider-range ui-widget-header ui-corner-all" style="left: 27%;"></div>
+            <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 27%;"></span>
+            <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 67%;"></span>
+        </div>
+    </div>
+</div>

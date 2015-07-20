@@ -1,0 +1,879 @@
+23:44:31.345 [pool-5-thread-7] net.liftweb.util.Props - Loaded key/value properties from resource /props/default.props
+23:44:31.421 [pool-5-thread-7] net.liftweb.mapper.MetaMapper - Initializing MetaMapper for User
+23:44:31.423 [pool-5-thread-7] net.liftweb.mapper.MetaMapper - Created FieldFinder for interface net.liftweb.mapper.MappedField
+23:44:31.550 [pool-5-thread-7] net.liftweb.mapper.MetaMapper - Initializing MetaMapper for PostModel
+23:44:31.550 [pool-5-thread-7] net.liftweb.mapper.MetaMapper - Created FieldFinder for interface net.liftweb.mapper.MappedField
+23:44:31.592 [pool-5-thread-7] net.liftweb.mapper.MetaMapper - Initializing MetaMapper for EmailSubscriber
+23:44:31.592 [pool-5-thread-7] net.liftweb.mapper.MetaMapper - Created FieldFinder for interface net.liftweb.mapper.MappedField
+23:44:36.042 [pool-5-thread-7] net.liftweb.db.ProtoDBVendor - Created new pool entry. name=ConnectionIdentifier(lift), poolSize=1
+23:44:36.075 [pool-5-thread-7] net.liftweb.mapper.Schemifier - Starting schemify. write=true, structureOnly=false, dbId=ConnectionIdentifier(lift), schema=PUBLIC, tables=List(user_t, postmodel, emailsubscriber)
+23:44:36.077 [pool-5-thread-7] net.liftweb.mapper.Schemifier - Running beforeSchemifier on table user_t
+23:44:36.077 [pool-5-thread-7] net.liftweb.mapper.Schemifier - Running beforeSchemifier on table postmodel
+23:44:36.077 [pool-5-thread-7] net.liftweb.mapper.Schemifier - Running beforeSchemifier on table emailsubscriber
+23:44:36.223 [pool-5-thread-7] net.liftweb.mapper.Schemifier - Executing DDL statements
+23:44:36.226 [pool-5-thread-7] net.liftweb.mapper.Schemifier - Running afterSchemifier on table user_t
+23:44:36.227 [pool-5-thread-7] net.liftweb.mapper.Schemifier - Running afterSchemifier on table postmodel
+23:44:36.227 [pool-5-thread-7] net.liftweb.mapper.Schemifier - Running afterSchemifier on table emailsubscriber
+23:44:36.235 [pool-5-thread-7] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:36.311 [pool-5-thread-7] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:37.475 [pool-9-thread-1] bootstrap.liftweb.MainActor - Getting posts is initialized
+23:44:37.482 [pool-9-thread-1] bootstrap.liftweb.GetJobsService - Iteration 1 : Getting jobs from feeds List(code.parsers.rss.feeds.MyPublicationFeed$@3aae83fe, code.parsers.rss.feeds.EtextFeed$@6598e63b, code.parsers.rss.feeds.AdvegoFeed$@72f84798, code.parsers.rss.WebLancerHtmlFeed$@d880225)...
+23:44:37.484 [pool-9-thread-1] bootstrap.liftweb.GetJobsService - code.parsers.rss.feeds.MyPublicationFeed$@3aae83fe ...
+23:44:39.391 [pool-9-thread-1] c.p.rss.feeds.MyPublicationFeed - Got 50 items
+23:44:39.391 [pool-9-thread-1] c.p.rss.feeds.MyPublicationFeed - Processing 50 posts
+23:44:39.503 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:40.706 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/ScqyvY
+Набираются начинающие авторы для написания статей (10 Р.)
+Требуются начинающие авторы для написания статей ра...
+23:44:40.743 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:40.820 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/ScqyvY
+Набираются начинающие авторы для написания статей (10 Р.)
+Требуются начинающие авторы для написания статей ра...
+23:44:41.195 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:41.197 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:41.478 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/oBj8Cg
+Копирайтер на удалённую работу: создание описаний товаров
+На удалённую работу требуется копирайтер для создан...
+23:44:41.480 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:41.560 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/oBj8Cg
+Копирайтер на удалённую работу: создание описаний товаров
+На удалённую работу требуется копирайтер для создан...
+23:44:41.562 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:41.563 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:41.830 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/jhOVYQ
+Копирайтинг на долгосрочной основе ($ 1)
+Требуются копирайтеры для написания статей на популярные тематики (а...
+23:44:41.835 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:41.918 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/jhOVYQ
+Копирайтинг на долгосрочной основе ($ 1)
+Требуются копирайтеры для написания статей на популярные тематики (а...
+23:44:42.086 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:42.088 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:42.401 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/kkIr5v
+Копирайтинг – поиск специалистов (35 Р.)
+На долгосрочное сотрудничество приглашаются копирайтеры и рерайтеры ...
+23:44:42.403 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:42.483 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/kkIr5v
+Копирайтинг – поиск специалистов (35 Р.)
+На долгосрочное сотрудничество приглашаются копирайтеры и рерайтеры ...
+23:44:42.648 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:42.652 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:42.935 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/d1P25U
+Сценарист-копирайтер для графических роликов (3000 Р.)
+Каждые несколько дней у нас появляется заказ на графич...
+23:44:42.937 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:43.018 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/d1P25U
+Сценарист-копирайтер для графических роликов (3000 Р.)
+Каждые несколько дней у нас появляется заказ на графич...
+23:44:43.186 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:43.188 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:43.473 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/l0CMkC
+Рерайтинг по 10 рубрикам для 10 исполнителей
+Ежедневный рерайтинг новостной тематики для 1 иcполнителя на руб...
+23:44:43.475 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:43.553 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/l0CMkC
+Рерайтинг по 10 рубрикам для 10 исполнителей
+Ежедневный рерайтинг новостной тематики для 1 иcполнителя на руб...
+23:44:43.554 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:43.555 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:43.985 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/h7uZi8
+Требуется копирайтер для написания текстов для продающих лендинг-страниц.
+Требуется копирайтер для написания ...
+23:44:43.986 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:44.063 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/h7uZi8
+Требуется копирайтер для написания текстов для продающих лендинг-страниц.
+Требуется копирайтер для написания ...
+23:44:44.064 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:44.065 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:44.402 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/tjKSab
+Требуется оператор для удаленной работы с электронными каталогами ($ 200)
+Требования: Знание ПК, хорошее орие...
+23:44:44.404 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:44.479 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/tjKSab
+Требуется оператор для удаленной работы с электронными каталогами ($ 200)
+Требования: Знание ПК, хорошее орие...
+23:44:44.634 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:44.636 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:44.930 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/XH54ZL
+Требуются копирайтеры! ($ 200)
+Обязанности: описания товаров для интернет-магазинов (в основном – бытовая тех...
+23:44:44.932 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:45.005 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/XH54ZL
+Требуются копирайтеры! ($ 200)
+Обязанности: описания товаров для интернет-магазинов (в основном – бытовая тех...
+23:44:45.163 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:45.164 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:45.463 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/e2Loe4
+Требуется Копирайтер в инфобизнес! (30000 Р.)
+Требуется Копирайтер на Постоянную Работу Требования: 1. Опыт р...
+23:44:45.465 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:45.546 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/e2Loe4
+Требуется Копирайтер в инфобизнес! (30000 Р.)
+Требуется Копирайтер на Постоянную Работу Требования: 1. Опыт р...
+23:44:45.711 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:45.715 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:46.006 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/KCRQ21
+Текст для лендинга (1000 Р.)
+Информация о проекте доступна только копирайтерам
+23:44:46.008 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:46.088 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/KCRQ21
+Текст для лендинга (1000 Р.)
+Информация о проекте доступна только копирайтерам
+23:44:46.259 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:46.260 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:46.526 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/f4nRfX
+Копирайтер и рерайтер (5000 Р.)
+Доброго времени суток Ищу рерайтера и копирайтера. Обязанности: Написание тек...
+23:44:46.529 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:46.604 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/f4nRfX
+Копирайтер и рерайтер (5000 Р.)
+Доброго времени суток Ищу рерайтера и копирайтера. Обязанности: Написание тек...
+23:44:46.761 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:46.764 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:47.078 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/rBzLpA
+Набираются начинающие авторы для написания статей (15000 Р.)
+Требуются начинающие авторы для написания статей...
+23:44:47.082 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:47.252 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/rBzLpA
+Набираются начинающие авторы для написания статей (15000 Р.)
+Требуются начинающие авторы для написания статей...
+23:44:47.418 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:47.419 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:47.713 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/o5vHuZ
+Копирайтинг, спешный набор авторов (35 Р.)
+На долгосрочное сотрудничество приглашаются копирайтеры и контент-...
+23:44:47.715 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:47.797 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/o5vHuZ
+Копирайтинг, спешный набор авторов (35 Р.)
+На долгосрочное сотрудничество приглашаются копирайтеры и контент-...
+23:44:47.961 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:47.962 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:48.187 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/RDvHuA
+Требуется срочно рерайтеры, удаленка, СНГ (12000 Р.)
+Добрый день! Нужны авторы, способные писать не менее 10 ...
+23:44:48.188 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:48.272 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/RDvHuA
+Требуется срочно рерайтеры, удаленка, СНГ (12000 Р.)
+Добрый день! Нужны авторы, способные писать не менее 10 ...
+23:44:48.441 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:48.442 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:48.747 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/kaD6aE
+Нужен копирайтер к свадебным платьям
+В свадебный салон требуется копирайтер для написания продающих описаний ...
+23:44:48.748 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:48.919 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/kaD6aE
+Нужен копирайтер к свадебным платьям
+В свадебный салон требуется копирайтер для написания продающих описаний ...
+23:44:48.920 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:48.930 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:49.010 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/e2Loe4
+Требуется Копирайтер в инфобизнес! (30000 Р.)
+Требуется Копирайтер на Постоянную Работу Требования: 1. Опыт р...
+23:44:49.012 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:49.276 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/IY8O85
+Копирайтеры на постоянную удаленную работу (50 Р.)
+Требуются копирайтеры на удаленную постоянную работу. Объе...
+23:44:49.278 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:49.356 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/IY8O85
+Копирайтеры на постоянную удаленную работу (50 Р.)
+Требуются копирайтеры на удаленную постоянную работу. Объе...
+23:44:49.522 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:49.525 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:49.602 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/e2Loe4
+Требуется Копирайтер в инфобизнес! (30000 Р.)
+Требуется Копирайтер на Постоянную Работу Требования: 1. Опыт р...
+23:44:49.603 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:49.891 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/aIQ712
+Рерайтинг статей
+Для рерайтинга новостей требуются исполнительные и ответственные рерайтеры, умеющие выполнят...
+23:44:49.892 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:49.971 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/aIQ712
+Рерайтинг статей
+Для рерайтинга новостей требуются исполнительные и ответственные рерайтеры, умеющие выполнят...
+23:44:49.973 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:49.974 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:50.227 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/qfXcuW
+Копирайтер
+Компании - производителю товаров для дома из пластика требуются копирайтеры - фрилансеры для напис...
+23:44:50.229 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:50.312 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/qfXcuW
+Копирайтер
+Компании - производителю товаров для дома из пластика требуются копирайтеры - фрилансеры для напис...
+23:44:50.315 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:50.317 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:50.628 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/mI3jt1
+Пишу бизнес-книгу, требуется помощь в поиске первых читателей (5000 из ца). (50000 Р.)
+Мне крайне важно напис...
+23:44:50.631 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:50.702 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/mI3jt1
+Пишу бизнес-книгу, требуется помощь в поиске первых читателей (5000 из ца). (50000 Р.)
+Мне крайне важно напис...
+23:44:50.856 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:50.857 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:51.097 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/MzZFOD
+копирайтеры на постоянную работу (15 Р.)
+Здравствуйте, дорогие копирайтеры! На постоянную работу требуются от...
+23:44:51.098 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:51.175 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/MzZFOD
+копирайтеры на постоянную работу (15 Р.)
+Здравствуйте, дорогие копирайтеры! На постоянную работу требуются от...
+23:44:51.332 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:51.333 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:51.586 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/umHJq4
+Юридические тексты ($ 1500)
+Внимание! Ищем грамотных авторов, специализирующихся на юридической тематике. Буд...
+23:44:51.587 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:51.660 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/umHJq4
+Юридические тексты ($ 1500)
+Внимание! Ищем грамотных авторов, специализирующихся на юридической тематике. Буд...
+23:44:51.816 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:51.817 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:52.130 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/1UdFcQ
+Вакансия, Россия, постер-копирайтер на удаленку, от 10000 руб (10000 Р.)
+Информация о проекте доступна только...
+23:44:52.131 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:52.201 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/1UdFcQ
+Вакансия, Россия, постер-копирайтер на удаленку, от 10000 руб (10000 Р.)
+Информация о проекте доступна только...
+23:44:52.356 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:52.358 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:52.432 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/f4nRfX
+Копирайтер и рерайтер (5000 Р.)
+Доброго времени суток Ищу рерайтера и копирайтера. Обязанности: Написание тек...
+23:44:52.434 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:52.504 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/rBzLpA
+Набираются начинающие авторы для написания статей (15000 Р.)
+Требуются начинающие авторы для написания статей...
+23:44:52.505 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:52.775 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/KKoOOg
+Написание описания
+Информация о проекте доступна только копирайтерам
+23:44:52.776 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:52.850 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/KKoOOg
+Написание описания
+Информация о проекте доступна только копирайтерам
+23:44:52.852 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:52.853 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:53.155 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/p9McIi
+Переписать отчет о практике (1500 Р.)
+Переписать отчет о практике так чтобы он содержал менее 10% плагиата. О...
+23:44:53.156 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:53.229 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/p9McIi
+Переписать отчет о практике (1500 Р.)
+Переписать отчет о практике так чтобы он содержал менее 10% плагиата. О...
+23:44:53.386 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:53.387 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:53.680 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/W9B8wQ
+Требуется крутой копирайтер для написание статей о новом ресурсе. (1000 Р.)
+Информация о проекте доступна тол...
+23:44:53.681 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:53.763 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/W9B8wQ
+Требуется крутой копирайтер для написание статей о новом ресурсе. (1000 Р.)
+Информация о проекте доступна тол...
+23:44:53.921 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:53.922 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:54.209 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/ejFNpg
+Статьи про переводы и иностранные языки
+Нужен копирайтер для написания статей на сайт агентства переводов. Дл...
+23:44:54.210 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:54.280 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/ejFNpg
+Статьи про переводы и иностранные языки
+Нужен копирайтер для написания статей на сайт агентства переводов. Дл...
+23:44:54.281 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:54.282 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:54.556 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/1ROl2y
+Ищем копирайтера в креативную команду крупной медиа-компании
+Мы ищем талантливого копирайтера в креативную ко...
+23:44:54.558 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:54.636 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/1ROl2y
+Ищем копирайтера в креативную команду крупной медиа-компании
+Мы ищем талантливого копирайтера в креативную ко...
+23:44:54.637 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:54.638 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:54.716 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/rBzLpA
+Набираются начинающие авторы для написания статей (15000 Р.)
+Требуются начинающие авторы для написания статей...
+23:44:54.717 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:55.013 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/7h7QKf
+Копирайтеры клиентских игр (200 Р.)
+Информация о проекте доступна только копирайтерам
+23:44:55.014 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:55.089 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/7h7QKf
+Копирайтеры клиентских игр (200 Р.)
+Информация о проекте доступна только копирайтерам
+23:44:55.247 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:55.248 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:55.613 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/5uTv5D
+Требуется копирайт для интернет магазина г.Уфа
+Информация о проекте доступна только копирайтерам
+23:44:55.614 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:55.689 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/5uTv5D
+Требуется копирайт для интернет магазина г.Уфа
+Информация о проекте доступна только копирайтерам
+23:44:55.690 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:55.691 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:55.976 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/KUqP3d
+Копирайтеры по медицине и кулинарии (60 Р.)
+Нужны несколько копирайтеров по медицине и кулинарии для постоянн...
+23:44:55.978 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:56.052 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/KUqP3d
+Копирайтеры по медицине и кулинарии (60 Р.)
+Нужны несколько копирайтеров по медицине и кулинарии для постоянн...
+23:44:56.212 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:56.213 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:56.532 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/aVNSSP
+Написать текст для сайта Digital агентства (13000 Р.)
+1.будет очень строгий отбор 2.по стилистике написания б...
+23:44:56.533 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:56.700 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/aVNSSP
+Написать текст для сайта Digital агентства (13000 Р.)
+1.будет очень строгий отбор 2.по стилистике написания б...
+23:44:56.882 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:56.883 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:57.136 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/kUJv7q
+Требуется копирайтер/рерайтер (100000 Р.)
+Легко пишете тексты на разные темы? Высокая грамотность и эрудиция?...
+23:44:57.138 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:57.220 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/kUJv7q
+Требуется копирайтер/рерайтер (100000 Р.)
+Легко пишете тексты на разные темы? Высокая грамотность и эрудиция?...
+23:44:59.295 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:59.296 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:59.796 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/xj7xqP
+Нужен уникальный и интересный текст. Если очень понравится-остальные буду заказывать у Вас (50 Р.)
+Информация...
+23:44:59.797 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:44:59.868 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/xj7xqP
+Нужен уникальный и интересный текст. Если очень понравится-остальные буду заказывать у Вас (50 Р.)
+Информация...
+23:45:00.022 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:00.023 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:00.326 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/pPF1ex
+Зарабатывай играя. ($ 2000)
+Информация о проекте доступна только копирайтерам
+23:45:00.327 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:00.398 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/pPF1ex
+Зарабатывай играя. ($ 2000)
+Информация о проекте доступна только копирайтерам
+23:45:00.555 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:00.556 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:00.852 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/zEq7Lv
+Тематика фуд-съемка, описание проектов
+Команде SP (наши сайты: slavapozdnyakov.ru, slavapozdnyakov.com, busin...
+23:45:00.853 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:00.928 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/zEq7Lv
+Тематика фуд-съемка, описание проектов
+Команде SP (наши сайты: slavapozdnyakov.ru, slavapozdnyakov.com, busin...
+23:45:00.929 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:00.930 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:01.240 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/Wp5Bdg
+Требуется написать 5 SEO-текстов в 10 вариациях
+Количество тем: 5. Количество вариантов по каждой теме: 10. Т...
+23:45:01.241 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:01.314 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/Wp5Bdg
+Требуется написать 5 SEO-текстов в 10 вариациях
+Количество тем: 5. Количество вариантов по каждой теме: 10. Т...
+23:45:01.315 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:01.316 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:01.583 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/DgNovT
+Написать художественный сценарий о войне на Украине (5000 Р.)
+Информация о проекте доступна только копирайтер...
+23:45:01.585 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:01.664 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/DgNovT
+Написать художественный сценарий о войне на Украине (5000 Р.)
+Информация о проекте доступна только копирайтер...
+23:45:01.825 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:01.826 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:02.154 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/be8Zf0
+Копирайтинг, набор специалисты (35 Р.)
+На долгосрочное сотрудничество приглашаются творческие люди, которые с...
+23:45:02.155 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:02.233 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/be8Zf0
+Копирайтинг, набор специалисты (35 Р.)
+На долгосрочное сотрудничество приглашаются творческие люди, которые с...
+23:45:02.391 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:02.392 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:02.650 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/Pbgrmp
+Требуются копирайтеры для небольших описаний шаблонов (сайтов) (20000 Р.)
+Задача: Сделать описания шаблонов п...
+23:45:02.651 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:02.727 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/Pbgrmp
+Требуются копирайтеры для небольших описаний шаблонов (сайтов) (20000 Р.)
+Задача: Сделать описания шаблонов п...
+23:45:02.888 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:02.889 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:03.151 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/7C8yZS
+Авторы для написания статей на сайт компании. (40 Р.)
+Наши требования для написания статей: Статьи грамотные,...
+23:45:03.153 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:03.232 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/7C8yZS
+Авторы для написания статей на сайт компании. (40 Р.)
+Наши требования для написания статей: Статьи грамотные,...
+23:45:03.397 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:03.400 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:03.689 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/k3shKM
+Требуются профессиональные копирайтеры
+Информация о проекте доступна только копирайтерам
+23:45:03.690 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:03.771 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/k3shKM
+Требуются профессиональные копирайтеры
+Информация о проекте доступна только копирайтерам
+23:45:03.772 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:03.773 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:04.059 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/qPEF3w
+Требуются профессиональные копирайтеры и рерайтеры
+Информация о проекте доступна только копирайтерам
+23:45:04.060 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:04.139 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/qPEF3w
+Требуются профессиональные копирайтеры и рерайтеры
+Информация о проекте доступна только копирайтерам
+23:45:04.140 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:04.141 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:04.217 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/ScqyvY
+Набираются начинающие авторы для написания статей (10 Р.)
+Требуются начинающие авторы для написания статей ра...
+23:45:04.218 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:04.484 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/dmwDwt
+Ищем копирайтеров и рерайтеров на постоянную работу (9000 Р.)
+Информация о проекте доступна только копирайтер...
+23:45:04.485 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:04.564 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/dmwDwt
+Ищем копирайтеров и рерайтеров на постоянную работу (9000 Р.)
+Информация о проекте доступна только копирайтер...
+23:45:04.718 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:04.719 [pool-9-thread-1] bootstrap.liftweb.GetJobsService - code.parsers.rss.feeds.EtextFeed$@6598e63b ...
+23:45:05.324 [pool-9-thread-1] code.parsers.rss.feeds.EtextFeed - Got 20 items
+23:45:05.325 [pool-9-thread-1] code.parsers.rss.feeds.EtextFeed - Processing 20 posts
+23:45:05.335 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:05.690 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/uDm4Ia
+Статья l 1300 символов
+Тип работы: Рерайтинг Категория: -- категория не определена Описание: Тема – «Что тако...
+23:45:05.691 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:05.768 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/uDm4Ia
+Статья l 1300 символов
+Тип работы: Рерайтинг Категория: -- категория не определена Описание: Тема – «Что тако...
+23:45:05.769 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:05.778 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:06.054 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/xc2TZp
+Статьи для сайта организации романтических услуг.
+Тип работы: Копирайтинг Категория: Праздники Описание: Нужн...
+23:45:06.058 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:06.126 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/xc2TZp
+Статьи для сайта организации романтических услуг.
+Тип работы: Копирайтинг Категория: Праздники Описание: Нужн...
+23:45:06.128 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:06.129 [pool-9-thread-1] bootstrap.liftweb.GetJobsService - code.parsers.rss.feeds.AdvegoFeed$@72f84798 ...
+23:45:06.339 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - Got 50 items
+23:45:06.340 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - Trying to add 50 posts
+23:45:06.422 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.08  у.е.
+23:45:06.423 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:06.743 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/WrjQ4p
+#12006774
+Количество знаков :  200  зн.  Срок исполнения :  6.00  ч.  Категория :       Кино  Тип :  TEXT , К...
+23:45:06.908 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:07.054 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.24  у.е.
+23:45:07.056 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:07.287 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/iiOiUx
+#12006752
+Количество знаков :  600  зн.  Срок исполнения :  2.00  ч.  Категория :       TEXT  Тип :  Статья, ...
+23:45:07.449 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:07.564 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.24  у.е.
+23:45:07.565 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:08.049 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/442w5x
+#12006742
+Количество знаков :  600  зн.  Срок исполнения :  2.00  ч.  Категория :       TEXT  Тип :  Статья, ...
+23:45:08.207 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:08.338 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.24  у.е.
+23:45:08.339 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:08.645 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/CgVvLE
+#12006714
+Количество знаков :  600  зн.  Срок исполнения :  2.00  ч.  Категория :       TEXT  Тип :  Статья, ...
+23:45:08.805 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:08.938 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.24  у.е.
+23:45:08.939 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:09.178 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/dKavTt
+#12006708
+Количество знаков :  600  зн.  Срок исполнения :  2.00  ч.  Категория :       TEXT  Тип :  Статья, ...
+23:45:09.336 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:09.450 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.24  у.е.
+23:45:09.451 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:09.744 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/yVFDoA
+#12006706
+Количество знаков :  600  зн.  Срок исполнения :  2.00  ч.  Категория :       TEXT  Тип :  Статья, ...
+23:45:10.146 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:10.274 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.24  у.е.
+23:45:10.275 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:10.511 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/hgVgT1
+#12006699
+Количество знаков :  600  зн.  Срок исполнения :  2.00  ч.  Категория :       TEXT  Тип :  Статья, ...
+23:45:10.670 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:10.773 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.09  у.е.
+23:45:10.774 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:11.069 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/Xkq05A
+#12006681
+Количество знаков :  200  зн.  Срок исполнения :  6.00  ч.  Категория :       SEO  Тип :  Поиск и о...
+23:45:11.222 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:11.520 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.09  у.е.
+23:45:11.520 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:11.811 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/mf0Efr
+#12006576
+Количество знаков :  200  зн.  Срок исполнения :  6.00  ч.  Категория :       SEO  Тип :  Поиск и о...
+23:45:11.969 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:12.436 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.09  у.е.
+23:45:12.437 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:12.751 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/bFMZco
+#12006573
+Количество знаков :  200  зн.  Срок исполнения :  6.00  ч.  Категория :       SEO  Тип :  Поиск и о...
+23:45:12.910 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:13.054 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.09  у.е.
+23:45:13.055 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:13.342 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/riEgcB
+#12006563
+Количество знаков :  200  зн.  Срок исполнения :  6.00  ч.  Категория :       SEO  Тип :  Поиск и о...
+23:45:13.496 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:13.893 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.09  у.е.
+23:45:13.893 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:14.160 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/7DgZV2
+#12006557
+Количество знаков :  200  зн.  Срок исполнения :  6.00  ч.  Категория :       SEO  Тип :  Поиск и о...
+23:45:14.321 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:14.455 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.09  у.е.
+23:45:14.456 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:14.681 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/SxVxCn
+#12006554
+Количество знаков :  200  зн.  Срок исполнения :  6.00  ч.  Категория :       SEO  Тип :  Поиск и о...
+23:45:14.853 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:14.981 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.09  у.е.
+23:45:14.981 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:15.279 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/hVlbQX
+#12006547
+Количество знаков :  200  зн.  Срок исполнения :  6.00  ч.  Категория :       SEO  Тип :  Поиск и о...
+23:45:15.456 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:15.589 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.09  у.е.
+23:45:15.590 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:15.924 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/bNz4R5
+#12006544
+Количество знаков :  200  зн.  Срок исполнения :  6.00  ч.  Категория :       SEO  Тип :  Поиск и о...
+23:45:16.076 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:16.198 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+23:45:16.200 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:16.430 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/OqqOax
+#12006444
+Количество знаков :  1000  зн.  Срок исполнения :  1.00  ч.  Категория :       TEXT  Тип :  Статья,...
+23:45:16.688 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:16.847 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+23:45:16.849 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:17.119 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/29s1bc
+#12006416
+Количество знаков :  1000  зн.  Срок исполнения :  1.00  ч.  Категория :       TEXT  Тип :  Статья,...
+23:45:17.710 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:17.851 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+23:45:17.852 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:18.159 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/WEVyb0
+#12006392
+Количество знаков :  1000  зн.  Срок исполнения :  1.00  ч.  Категория :       TEXT  Тип :  Статья,...
+23:45:20.373 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:20.515 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+23:45:20.518 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:20.791 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/87bLrs
+#12006385
+Количество знаков :  1000  зн.  Срок исполнения :  1.00  ч.  Категория :       TEXT  Тип :  Статья,...
+23:45:20.976 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:21.132 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+23:45:21.133 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:21.434 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/uxkI8U
+#12006312
+Количество знаков :  1000  зн.  Срок исполнения :  1.00  ч.  Категория :       TEXT  Тип :  Статья,...
+23:45:21.595 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:21.737 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+23:45:21.738 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:21.998 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/x4dxX5
+#12006305
+Количество знаков :  1000  зн.  Срок исполнения :  1.00  ч.  Категория :       TEXT  Тип :  Статья,...
+23:45:22.153 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:22.276 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+23:45:22.277 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:22.540 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/gRZRCm
+#12006278
+Количество знаков :  1000  зн.  Срок исполнения :  1.00  ч.  Категория :       TEXT  Тип :  Статья,...
+23:45:25.125 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:25.277 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+23:45:25.278 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:25.591 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/zHsZA0
+#12006275
+Количество знаков :  1000  зн.  Срок исполнения :  1.00  ч.  Категория :       TEXT  Тип :  Статья,...
+23:45:25.874 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:26.032 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+23:45:26.034 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:26.306 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/OvgVNV
+#12006240
+Количество знаков :  1000  зн.  Срок исполнения :  1.00  ч.  Категория :       TEXT  Тип :  Статья,...
+23:45:26.465 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:26.579 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+23:45:26.580 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:27.187 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/DjjPvy
+#12006067
+Количество знаков :  1000  зн.  Срок исполнения :  16.00  ч.  Категория :       Игрушки, товары для...
+23:45:27.344 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:27.479 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.45  у.е.
+23:45:27.480 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:27.733 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/BjMThD
+#12005952
+Количество знаков :  1500  зн.  Срок исполнения :  6.00  ч.  Категория :       Авто, мото  Тип :  I...
+23:45:27.888 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:28.025 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.06  у.е.
+23:45:28.026 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:28.313 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/QOX7ns
+#12005759
+Количество знаков :  100  зн.  Срок исполнения :  6.00  ч.  Категория :       TEXT  Тип :  Коммента...
+23:45:28.476 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:28.629 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.69  у.е.
+23:45:28.629 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:29.017 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/LbAxq9
+#12005442
+Количество знаков :  3450  зн.  Срок исполнения :  5.00  ч.  Категория :       Медицина, лечение и ...
+23:45:29.179 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:29.337 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+23:45:29.339 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:29.646 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/sc6h4G
+#12005340
+Количество знаков :  2024  зн.  Срок исполнения :  6.00  ч.  Категория :       Строительный инструм...
+23:45:29.807 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:29.952 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 1.00  у.е.
+23:45:29.953 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:30.194 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/2Mr8QU
+#12005327
+Количество знаков :  2500  зн.  Срок исполнения :  6.00  ч.  Категория :       Закон и Право  Тип :...
+23:45:30.382 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:30.526 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.47  у.е.
+23:45:30.527 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:30.821 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/njeHCD
+#12005319
+Количество знаков :  2374  зн.  Срок исполнения :  6.00  ч.  Категория :       Спорт и спортивный и...
+23:45:30.983 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:31.115 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.80  у.е.
+23:45:31.116 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:31.356 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/CxXweX
+#12005311
+Количество знаков :  2000  зн.  Срок исполнения :  6.00  ч.  Категория :       Закон и Право  Тип :...
+23:45:31.524 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:31.643 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 1.00  у.е.
+23:45:31.644 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:31.986 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/5Wzqyq
+#12005269
+Количество знаков :  2500  зн.  Срок исполнения :  6.00  ч.  Категория :       Закон и Право  Тип :...
+23:45:32.150 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:32.301 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+23:45:32.302 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:32.543 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/Nmlb5W
+#12005254
+Количество знаков :  1524  зн.  Срок исполнения :  6.00  ч.  Категория :       Авто, мото  Тип :  T...
+23:45:32.701 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:32.812 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.60  у.е.
+23:45:32.812 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:33.059 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/LFegDr
+#12004930
+Количество знаков :  1500  зн.  Срок исполнения :  3.00  ч.  Категория :       Красота и здоровье, ...
+23:45:33.219 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:33.699 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.60  у.е.
+23:45:33.700 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:33.931 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/LcW91k
+#12004908
+Количество знаков :  1500  зн.  Срок исполнения :  3.00  ч.  Категория :       Красота и здоровье, ...
+23:45:34.096 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:34.250 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.69  у.е.
+23:45:34.252 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:34.593 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/ahxVcU
+#12004702
+Количество знаков :  3450  зн.  Срок исполнения :  5.00  ч.  Категория :       Медицина, лечение и ...
+23:45:34.753 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:34.908 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 6.00  у.е.
+23:45:34.909 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:35.260 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/ke4tu9
+#12004693
+Количество знаков :  3000  зн.  Срок исполнения :  72.00  ч.  Категория :       Строительный инстру...
+23:45:35.418 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:35.611 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.14  у.е.
+23:45:35.612 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:35.850 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/d0f2zG
+#12004690
+Количество знаков :  700  зн.  Срок исполнения :  6.00  ч.  Категория :       Кино  Тип :  TEXT , С...
+23:45:36.192 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:36.341 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.68  у.е.
+23:45:36.342 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:36.649 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/3B2tnj
+#12004683
+Количество знаков :  1500  зн.  Срок исполнения :  2.00  ч.  Категория :       Авто, мото  Тип :  T...
+23:45:36.815 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:36.979 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.05  у.е.
+23:45:36.980 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:37.272 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/qfzBSy
+#12004667
+Количество знаков :  50  зн.  Срок исполнения :  1.00  ч.  Категория :       Юмор  Тип :  SOCIAL , ...
+23:45:37.432 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:37.594 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+23:45:37.595 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:37.868 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/Mza61i
+#12004322
+Количество знаков :  500  зн.  Срок исполнения :  6.00  ч.  Категория :       Кино  Тип :  TEXT , С...
+23:45:38.043 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:38.204 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.20  у.е.
+23:45:38.205 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:38.503 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/hLVjTz
+#12004142
+Количество знаков :  1000  зн.  Срок исполнения :  6.00  ч.  Категория :       Компьютерные игры, в...
+23:45:38.659 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:38.800 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+23:45:38.801 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:39.079 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/yiCv90
+#12004134
+Количество знаков :  500  зн.  Срок исполнения :  6.00  ч.  Категория :       Компьютерные игры, ви...
+23:45:39.242 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:39.689 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+23:45:39.690 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:39.989 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/rVVMZM
+#12004115
+Количество знаков :  500  зн.  Срок исполнения :  6.00  ч.  Категория :       Компьютерные игры, ви...
+23:45:40.149 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:40.377 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+23:45:40.378 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:40.609 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/H9CQ7y
+#12004108
+Количество знаков :  500  зн.  Срок исполнения :  6.00  ч.  Категория :       Компьютерные игры, ви...
+23:45:40.775 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:41.023 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+23:45:41.023 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:41.377 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/V8B3Zm
+#12004103
+Количество знаков :  500  зн.  Срок исполнения :  6.00  ч.  Категория :       Компьютерные игры, ви...
+23:45:41.540 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:41.741 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+23:45:41.743 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:42.024 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/N3UET3
+#12004101
+Количество знаков :  500  зн.  Срок исполнения :  6.00  ч.  Категория :       Компьютерные игры, ви...
+23:45:42.190 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:42.345 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+23:45:42.346 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:42.590 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/SQQ4tF
+#12004059
+Количество знаков :  100  зн.  Срок исполнения :  6.00  ч.  Категория :       Ремонт и обустройство...
+23:45:43.201 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:43.587 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.60  у.е.
+23:45:43.587 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:43.820 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/y0yc5s
+#12003899
+Количество знаков :  500  зн.  Срок исполнения :  6.00  ч.  Категория :       TEXT  Тип :  Статья, ...
+23:45:43.985 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:43.985 [pool-9-thread-1] bootstrap.liftweb.GetJobsService - code.parsers.rss.WebLancerHtmlFeed$@d880225 ...
+23:45:43.986 [pool-9-thread-1] code.parsers.rss.WebLancerHtmlFeed - Processing Weblancer:
+23:45:43.990 [pool-9-thread-1] code.parsers.rss.WebLancerHtmlFeed - page 1
+23:45:45.503 [pool-9-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+23:45:45.644 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:45.988 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/xxImtF
+Дипломная работа по бух учету
+Тема: повышение конкурентоспособности продукции предприятия (само предприятие и...
+23:45:45.989 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:45.991 [pool-9-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+23:45:46.116 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:46.408 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/Xexsut
+Задача по диффузии + диплом по этой же теме
+Задача о газововй атаке Нужно решить методом переменных направлен...
+23:45:46.409 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:46.409 [pool-9-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+23:45:46.532 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:46.811 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/4Lzowv
+Дипломная работа по специальности слесарь кипиа
+[Отредактировано: сегодня в 20:42] Тема: МИП Срок: до 8ого ап...
+23:45:46.812 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:46.812 [pool-9-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+23:45:46.928 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:47.167 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/LR8JSI
+Дипломная работа по таможенному делу
+Тема: Совершенствование взаимодействия участников ВЭД с таможенными орга...
+23:45:47.168 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:47.168 [pool-9-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+23:45:47.288 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:47.519 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/idZKlR
+Дипломная Прoгрaммный модуль учета оплаты труда на предприятии
+Дипломная работа по прикладной информатике Про...
+23:45:47.521 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:47.521 [pool-9-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+23:45:48.035 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:48.268 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/K2CtQr
+Уникальный текст для главной страницы сайта
+Для страницы http://natalimarket.by • Уникализировать текущий тек...
+23:45:48.426 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:48.426 [pool-9-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+23:45:48.576 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:48.853 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/2Zbo8S
+Ручная регистрация на форумах, порталах
+Необходимо самостоятельно подобрать и разместить информацию о компани...
+23:45:48.854 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:48.854 [pool-9-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+23:45:49.447 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:49.812 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/iPazWR
+Написание статей комплектами по 30 шт / рерайт
+Здравствуйте. Требуется комплекты статей по 30 шт Желательный ...
+23:45:49.813 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:49.813 [pool-9-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+23:45:50.282 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:50.546 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/wMRfjr
+Курсовая гражданское право
+Необходимо написать курсовую работу на тему: Производство в кассационной инстанции...
+23:45:50.547 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:50.547 [pool-9-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+23:45:51.033 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:51.336 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/dHspBR
+Вопрос-ответ, копирайт
+Нужно написать 10–15 постов в стиле вопросответ. Копирайт. Для сайтов По достопримечат...
+23:45:51.499 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:51.499 [pool-9-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+23:45:51.927 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:52.175 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/GUZzbV
+Курсовая транспортная логистика
+Курсовая работа на тему «Экономическая эффективность использования прямых сме...
+23:45:52.178 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:52.179 [pool-9-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+23:45:52.691 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:52.923 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/6HniNo
+Требуется 20 статей по 4000-5000 зн. (Недвижимость)
+Здравствуйте! Требуется рерайткопирайт описаний новострое...
+23:45:52.924 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:52.924 [pool-9-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+23:45:53.393 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:53.681 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/ZfvvVj
+Контрольная работа
+Дисциплина: право социального обеспечения Тема: задачи Колво страниц: 10–12 Оригинальность...
+23:45:53.682 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:53.682 [pool-9-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+23:45:54.267 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:54.543 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/jHb6sZ
+Доработка диплома гражданский процесс
+Дипломная работа и замечания во вложении. Срок 7 апреля вечер. Если не ...
+23:45:54.543 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:54.544 [pool-9-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+23:45:54.982 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:55.332 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/yano1j
+Доработка диплома трудовое право.
+В тексте дипломной работы преподаватель оставил замечания. Их надо исправит...
+23:45:55.332 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:55.333 [pool-9-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+23:45:55.854 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:56.120 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/cYFshR
+Перевод текста рус-англ на военную тематику
+Необходимо перевести текст на военную тематику с русского на англ...
+23:45:56.122 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:56.122 [pool-9-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+23:45:56.555 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:56.823 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/vB1jVr
+Редактирование английского текста
+Необходимо отредактировать текст написанный по англ. Тематика: описание веб...
+23:45:56.824 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:56.824 [pool-9-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+23:45:57.309 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:57.603 [pool-9-thread-1] net.liftweb.mapper.MetaMapper - Saving dbName=PostModel, entity=http://goo.gl/YFo9VE
+Копирайтинг по велотематике
+Добрый день! Ищу копирайтера по велотематике. Задачи: — написание статей по испол...
+23:45:57.604 [pool-9-thread-1] net.liftweb.db.ProtoDBVendor - Released connection. poolSize=1
+23:45:57.604 [pool-9-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1

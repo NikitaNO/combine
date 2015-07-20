@@ -1,0 +1,7 @@
+21:57:30.063 [pool-5-thread-5] code.MyHelpers - java.lang.IllegalStateException: OAuth consumer key/secret combination not supplied
+21:57:54.742 [pool-9-thread-1] bootstrap.liftweb.GetJobsService - java.lang.IndexOutOfBoundsException: 0
+22:01:34.513 [pool-9-thread-6] code.MyHelpers - org.h2.jdbc.JdbcSQLException: Value too long for column "DESCRIPTION VARCHAR(2000) SELECTIVITY 82": "STRINGDECODE('\u0422\u0438\u043f \u0440\u0430\u0431\u043e\u0442\u044b: \u0420\u0435\u0440\u0430\u0439\u0442\u0438\u043d\u0433 \u... (2635)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,descriptionnodeseq,feed,link_c,originalcurrency,published,responses,rubamount,title,usdamount) VALUES (?,?,?,?,?,?,?,?,?,?,?,?) [22001-167]
+22:01:34.515 [pool-9-thread-6] bootstrap.liftweb.GetJobsService - org.h2.jdbc.JdbcSQLException: Value too long for column "DESCRIPTION VARCHAR(2000) SELECTIVITY 82": "STRINGDECODE('\u0422\u0438\u043f \u0440\u0430\u0431\u043e\u0442\u044b: \u0420\u0435\u0440\u0430\u0439\u0442\u0438\u043d\u0433 \u... (2635)"; SQL statement:
+INSERT INTO postmodel (budget,date_c,description,descriptionnodeseq,feed,link_c,originalcurrency,published,responses,rubamount,title,usdamount) VALUES (?,?,?,?,?,?,?,?,?,?,?,?) [22001-167]
+22:01:42.209 [pool-9-thread-6] bootstrap.liftweb.GetJobsService - java.lang.IndexOutOfBoundsException: 0

@@ -1,0 +1,1015 @@
+21:24:39.381 [pool-6-thread-1] bootstrap.liftweb.MainActor - Schedule cleaning db in 2015-05-08T04:24:39.368+03:00
+21:24:40.372 [pool-10-thread-1] bootstrap.liftweb.MainActor - Getting posts is initialized
+21:24:40.378 [pool-10-thread-1] bootstrap.liftweb.GetJobsService - Iteration 1 : Getting jobs from feeds List(code.parsers.rss.feeds.MyPublicationFeed$@2e72c101, code.parsers.rss.feeds.EtextFeed$@77ae3174, code.parsers.rss.feeds.AdvegoFeed$@3ae41fd3, code.parsers.rss.WebLancerHtmlFeed$@6d287508)...
+21:24:40.380 [pool-10-thread-1] bootstrap.liftweb.GetJobsService - code.parsers.rss.feeds.MyPublicationFeed$@2e72c101 ...
+21:24:40.716 [pool-10-thread-1] c.p.rss.feeds.MyPublicationFeed - Got 50 items
+21:24:40.717 [pool-10-thread-1] c.p.rss.feeds.MyPublicationFeed - Processing 50 posts
+21:24:45.506 [pool-10-thread-1] bootstrap.liftweb.GetJobsService - code.parsers.rss.feeds.EtextFeed$@77ae3174 ...
+21:24:45.730 [pool-10-thread-1] code.parsers.rss.feeds.EtextFeed - Got 20 items
+21:24:45.731 [pool-10-thread-1] code.parsers.rss.feeds.EtextFeed - Processing 20 posts
+21:24:46.879 [pool-10-thread-1] bootstrap.liftweb.GetJobsService - code.parsers.rss.feeds.AdvegoFeed$@3ae41fd3 ...
+21:24:47.646 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - Got 50 items
+21:24:47.647 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - Trying to add 50 posts
+21:24:47.927 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:24:48.397 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 1.00  у.е.
+21:24:48.817 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+21:24:48.885 [qtp571486553-89] net.liftweb.util.TimeHelpers - Service request (GET) / returned 200, took 877 Milliseconds
+21:24:49.042 [qtp571486553-91] net.liftweb.util.TimeHelpers - Service request (GET) /ajax_request/liftAjax.js returned 200, took 108 Milliseconds
+21:24:49.156 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.26  у.е.
+21:24:49.313 [qtp571486553-91] net.liftweb.util.TimeHelpers - Service request (HEAD) /lib/images/nikita@2x.jpg returned 404, took 20 Milliseconds
+21:24:49.313 [qtp571486553-90] net.liftweb.util.TimeHelpers - Service request (HEAD) /lib/images/combine_how_to@2x.gif returned 404, took 18 Milliseconds
+21:24:49.314 [qtp571486553-88] net.liftweb.util.TimeHelpers - Service request (HEAD) /lib/images/bg@2x.jpg returned 404, took 21 Milliseconds
+21:24:49.318 [qtp571486553-89] net.liftweb.util.TimeHelpers - Service request (HEAD) /lib/images/andrey@2x.jpg returned 404, took 21 Milliseconds
+21:24:49.499 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.22  у.е.
+21:24:49.785 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:24:50.066 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:24:50.384 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.50  у.е.
+21:24:50.714 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.80  у.е.
+21:24:50.998 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.50  у.е.
+21:24:51.298 [qtp571486553-89] net.liftweb.util.TimeHelpers - Service request (GET) /main returned 200, took 365 Milliseconds
+21:24:51.318 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.50  у.е.
+21:24:51.406 [qtp571486553-89] net.liftweb.util.TimeHelpers - Service request (GET) /styles/images/ui-bg_highlight-soft_100_eeeeee_1x100.png returned 404, took 3 Milliseconds
+21:24:51.409 [qtp571486553-96] net.liftweb.util.TimeHelpers - Service request (GET) /ajax_request/liftAjax.js returned 200, took 70 Milliseconds
+21:24:51.660 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:24:51.707 [qtp571486553-90] net.liftweb.util.TimeHelpers - Service request (GET) /favicon.ico returned 404, took 20 Milliseconds
+21:24:51.937 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:24:52.248 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.15  у.е.
+21:24:52.522 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:24:52.812 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.29  у.е.
+21:24:56.074 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:24:56.343 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:24:56.638 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:24:56.921 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.24  у.е.
+21:24:57.172 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.24  у.е.
+21:24:57.415 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.49  у.е.
+21:24:57.657 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.75  у.е.
+21:24:57.900 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.49  у.е.
+21:24:57.950 [qtp571486553-90] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802242CAJJ25-00/ returned 200, took 151 Milliseconds
+21:24:58.143 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+21:24:58.397 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.15  у.е.
+21:24:58.643 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:24:58.801 [qtp571486553-91] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802242CAJJ25-10/ returned 200, took 141 Milliseconds
+21:24:58.927 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:24:59.182 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 2.50  у.е.
+21:24:59.428 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 1.25  у.е.
+21:24:59.572 [qtp571486553-96] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802242CAJJ25-20/ returned 200, took 47 Milliseconds
+21:24:59.663 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+21:24:59.911 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.50  у.е.
+21:25:00.147 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:25:00.390 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:25:00.642 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:25:00.890 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:25:01.192 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:25:01.499 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:25:01.974 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.75  у.е.
+21:25:02.246 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 1.35  у.е.
+21:25:02.513 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 1.80  у.е.
+21:25:02.757 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:25:03.152 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.90  у.е.
+21:25:03.214 [qtp571486553-89] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802242CAJJ25-30/ returned 200, took 71 Milliseconds
+21:25:03.509 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:25:03.840 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 1.01  у.е.
+21:25:03.982 [qtp571486553-88] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802242CAJJ25-40/ returned 200, took 40 Milliseconds
+21:25:04.136 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 1.64  у.е.
+21:25:04.409 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.60  у.е.
+21:25:04.689 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 1.63  у.е.
+21:25:04.936 [qtp571486553-96] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802242CAJJ25-50/ returned 200, took 38 Milliseconds
+21:25:05.854 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 1.00  у.е.
+21:25:06.045 [qtp571486553-90] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802242CAJJ25-60/ returned 200, took 30 Milliseconds
+21:25:06.131 [pool-10-thread-1] code.parsers.rss.feeds.AdvegoFeed - 1.42  у.е.
+21:25:06.329 [pool-10-thread-1] bootstrap.liftweb.GetJobsService - code.parsers.rss.WebLancerHtmlFeed$@6d287508 ...
+21:25:06.364 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Processing Weblancer:
+21:25:06.366 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - page 1
+21:25:06.757 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:06.938 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:07.111 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:07.286 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:07.456 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:07.457 [qtp571486553-90] net.liftweb.util.TimeHelpers - Service request (GET) /main returned 200, took 129 Milliseconds
+21:25:07.509 [qtp571486553-88] net.liftweb.util.TimeHelpers - Service request (GET) /ajax_request/liftAjax.js returned 200, took 32 Milliseconds
+21:25:07.637 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:07.807 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:07.978 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:08.142 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:08.308 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:08.859 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:09.192 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:09.398 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:09.656 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:10.017 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:10.214 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:10.462 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:10.639 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:10.822 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:11.072 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:11.260 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - page 2
+21:25:11.474 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:11.642 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:11.802 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:12.062 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:12.259 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:12.670 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:12.847 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:13.115 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:13.286 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:13.541 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:13.736 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:13.926 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:14.261 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:15.022 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:15.193 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:15.468 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:15.696 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:15.922 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:16.375 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:16.596 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:17.442 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - page 3
+21:25:17.652 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:18.077 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:18.250 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:18.423 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:18.611 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:18.986 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:19.184 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:19.402 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:19.596 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:19.793 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:19.961 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:20.224 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:20.395 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:20.764 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:20.938 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:21.262 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:21.437 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:21.646 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:21.849 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:22.051 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:22.232 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - page 4
+21:25:22.428 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:22.635 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:22.809 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:22.972 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:23.169 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:24.003 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:24.636 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:25.328 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:26.154 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:26.335 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:26.853 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:27.586 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:28.178 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:28.870 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:29.565 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:30.263 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:30.776 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:31.371 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:32.070 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:32.776 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:33.463 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - page 5
+21:25:33.731 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:34.174 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:34.608 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:35.304 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:35.836 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:36.323 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:36.877 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:37.765 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:38.255 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:39.070 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:39.740 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:40.257 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:40.481 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:40.976 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:41.573 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:42.084 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:42.686 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:43.443 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:44.070 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:44.809 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:25:45.741 [pool-10-thread-1] code.parsers.rss.WebLancerHtmlFeed - total posts : 100
+21:25:46.247 [qtp571486553-88] net.liftweb.util.TimeHelpers - Service request (GET) /main returned 200, took 72 Milliseconds
+21:25:46.307 [qtp571486553-91] net.liftweb.util.TimeHelpers - Service request (GET) /ajax_request/liftAjax.js returned 200, took 40 Milliseconds
+21:25:51.475 [qtp571486553-96] net.liftweb.util.TimeHelpers - Service request (GET) /main returned 200, took 62 Milliseconds
+21:25:51.534 [qtp571486553-88] net.liftweb.util.TimeHelpers - Service request (GET) /ajax_request/liftAjax.js returned 200, took 35 Milliseconds
+21:26:09.976 [qtp571486553-97] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802503HQKRQ0-00/ returned 200, took 31 Milliseconds
+21:26:10.971 [qtp571486553-97] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802503HQKRQ0-10/ returned 200, took 42 Milliseconds
+21:26:12.304 [qtp571486553-97] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802503HQKRQ0-20/ returned 200, took 36 Milliseconds
+21:26:13.355 [qtp571486553-97] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802503HQKRQ0-30/ returned 200, took 42 Milliseconds
+21:26:16.476 [qtp571486553-89] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802503HQKRQ0-40/ returned 200, took 25 Milliseconds
+21:26:17.365 [qtp571486553-88] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802503HQKRQ0-50/ returned 200, took 24 Milliseconds
+21:26:18.042 [qtp571486553-91] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802503HQKRQ0-60/ returned 200, took 26 Milliseconds
+21:26:18.626 [qtp571486553-97] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802503HQKRQ0-70/ returned 200, took 23 Milliseconds
+21:26:19.717 [qtp571486553-97] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802503HQKRQ0-80/ returned 200, took 24 Milliseconds
+21:27:07.144 [qtp571486553-91] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802503HQKRQ0/ returned 200, took 9 Milliseconds
+21:28:22.953 [qtp571486553-91] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802503HQKRQ0/ returned 200, took 2 Milliseconds
+21:28:40.352 [pool-10-thread-9] bootstrap.liftweb.MainActor - Getting posts is initialized
+21:28:40.353 [pool-10-thread-9] bootstrap.liftweb.GetJobsService - Iteration 2 : Getting jobs from feeds List(code.parsers.rss.feeds.MyPublicationFeed$@2e72c101, code.parsers.rss.feeds.EtextFeed$@77ae3174, code.parsers.rss.feeds.AdvegoFeed$@3ae41fd3, code.parsers.rss.WebLancerHtmlFeed$@6d287508)...
+21:28:40.353 [pool-10-thread-9] bootstrap.liftweb.GetJobsService - code.parsers.rss.feeds.MyPublicationFeed$@2e72c101 ...
+21:28:40.508 [pool-10-thread-9] c.p.rss.feeds.MyPublicationFeed - Got 50 items
+21:28:40.508 [pool-10-thread-9] c.p.rss.feeds.MyPublicationFeed - Processing 50 posts
+21:28:42.716 [pool-10-thread-9] bootstrap.liftweb.GetJobsService - code.parsers.rss.feeds.EtextFeed$@77ae3174 ...
+21:28:43.275 [pool-10-thread-9] code.parsers.rss.feeds.EtextFeed - Got 20 items
+21:28:43.275 [pool-10-thread-9] code.parsers.rss.feeds.EtextFeed - Processing 20 posts
+21:28:44.203 [pool-10-thread-9] bootstrap.liftweb.GetJobsService - code.parsers.rss.feeds.AdvegoFeed$@3ae41fd3 ...
+21:28:44.426 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - Got 50 items
+21:28:44.426 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - Trying to add 50 posts
+21:28:44.539 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:28:44.714 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 1.00  у.е.
+21:28:44.865 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+21:28:45.012 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.26  у.е.
+21:28:45.153 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.22  у.е.
+21:28:45.291 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:28:45.404 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:28:45.519 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.50  у.е.
+21:28:45.650 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.80  у.е.
+21:28:45.769 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.50  у.е.
+21:28:45.890 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.50  у.е.
+21:28:46.012 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:28:46.134 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:28:46.248 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.15  у.е.
+21:28:46.369 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:28:46.492 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.29  у.е.
+21:28:46.638 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:28:46.768 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:28:46.896 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:28:47.017 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.24  у.е.
+21:28:47.144 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.24  у.е.
+21:28:47.268 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.49  у.е.
+21:28:47.385 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.75  у.е.
+21:28:47.505 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.49  у.е.
+21:28:47.620 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+21:28:47.715 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.15  у.е.
+21:28:47.799 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:28:47.888 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:28:47.975 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 2.50  у.е.
+21:28:48.059 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 1.25  у.е.
+21:28:48.155 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+21:28:48.237 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.50  у.е.
+21:28:48.323 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:28:48.410 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:28:48.492 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:28:48.572 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:28:48.658 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:28:48.745 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:28:48.827 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.75  у.е.
+21:28:48.920 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 1.35  у.е.
+21:28:49.041 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 1.80  у.е.
+21:28:49.129 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:28:49.213 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.90  у.е.
+21:28:49.307 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:28:49.400 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 1.01  у.е.
+21:28:49.483 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 1.64  у.е.
+21:28:49.566 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 0.60  у.е.
+21:28:49.654 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 1.63  у.е.
+21:28:49.735 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 1.00  у.е.
+21:28:49.820 [pool-10-thread-9] code.parsers.rss.feeds.AdvegoFeed - 1.42  у.е.
+21:28:49.869 [pool-10-thread-9] bootstrap.liftweb.GetJobsService - code.parsers.rss.WebLancerHtmlFeed$@6d287508 ...
+21:28:49.869 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Processing Weblancer:
+21:28:49.869 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - page 1
+21:28:50.186 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:50.364 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:50.520 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:50.690 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:50.844 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:50.998 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:51.166 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:51.332 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:51.500 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:51.652 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:51.814 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:51.965 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:52.353 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:52.591 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:52.795 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:52.982 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:53.228 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:53.392 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:53.550 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:53.871 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:54.211 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - page 2
+21:28:54.400 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:54.570 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:54.725 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:54.969 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:55.168 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:55.367 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:55.544 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:55.818 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:55.981 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:56.247 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:56.413 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:56.603 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:56.792 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:57.052 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:57.216 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:57.468 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:57.678 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:57.900 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:58.471 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:58.687 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:58.871 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - page 3
+21:28:59.101 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:59.511 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:59.684 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:28:59.853 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:00.033 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:00.220 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:00.390 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:00.559 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:00.717 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:00.884 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:01.048 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:01.306 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:01.464 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:01.674 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:01.842 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:02.200 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:02.375 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:02.570 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:02.761 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:02.934 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:03.103 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - page 4
+21:29:03.310 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:03.517 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:03.681 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:03.839 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:04.032 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:04.264 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:04.590 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:04.768 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:05.043 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:05.214 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:05.377 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:05.625 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:05.875 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:06.044 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:06.317 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:06.537 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:06.799 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:06.967 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:07.140 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:07.343 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:07.580 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - page 5
+21:29:07.821 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:07.987 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:08.166 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:08.341 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:08.514 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:08.678 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:08.835 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:09.017 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:09.191 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:09.387 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:09.595 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:09.805 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:10.033 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:10.226 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:10.471 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:10.670 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:10.940 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:11.229 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:11.440 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:11.664 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:29:11.987 [pool-10-thread-9] code.parsers.rss.WebLancerHtmlFeed - total posts : 100
+21:29:38.986 [qtp571486553-96] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802503HQKRQ0/ returned 200, took 3 Milliseconds
+21:30:54.754 [qtp571486553-89] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802503HQKRQ0/ returned 200, took 3 Milliseconds
+21:32:10.762 [qtp571486553-88] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802503HQKRQ0/ returned 200, took 3 Milliseconds
+21:32:40.352 [pool-10-thread-3] bootstrap.liftweb.MainActor - Getting posts is initialized
+21:32:40.352 [pool-10-thread-3] bootstrap.liftweb.GetJobsService - Iteration 3 : Getting jobs from feeds List(code.parsers.rss.feeds.MyPublicationFeed$@2e72c101, code.parsers.rss.feeds.EtextFeed$@77ae3174, code.parsers.rss.feeds.AdvegoFeed$@3ae41fd3, code.parsers.rss.WebLancerHtmlFeed$@6d287508)...
+21:32:40.352 [pool-10-thread-3] bootstrap.liftweb.GetJobsService - code.parsers.rss.feeds.MyPublicationFeed$@2e72c101 ...
+21:32:40.494 [pool-10-thread-3] c.p.rss.feeds.MyPublicationFeed - Got 50 items
+21:32:40.494 [pool-10-thread-3] c.p.rss.feeds.MyPublicationFeed - Processing 50 posts
+21:32:42.662 [pool-10-thread-3] bootstrap.liftweb.GetJobsService - code.parsers.rss.feeds.EtextFeed$@77ae3174 ...
+21:32:43.218 [pool-10-thread-3] code.parsers.rss.feeds.EtextFeed - Got 20 items
+21:32:43.218 [pool-10-thread-3] code.parsers.rss.feeds.EtextFeed - Processing 20 posts
+21:32:43.397 [pool-10-thread-3] bootstrap.liftweb.GetJobsService - code.parsers.rss.feeds.AdvegoFeed$@3ae41fd3 ...
+21:32:43.558 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - Got 50 items
+21:32:43.558 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - Trying to add 50 posts
+21:32:43.625 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:32:43.737 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 1.00  у.е.
+21:32:43.824 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+21:32:43.905 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.26  у.е.
+21:32:43.986 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.22  у.е.
+21:32:44.064 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:32:44.169 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:32:44.252 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.50  у.е.
+21:32:44.343 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.80  у.е.
+21:32:44.431 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.50  у.е.
+21:32:44.522 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.50  у.е.
+21:32:44.603 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:32:44.706 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:32:44.813 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.15  у.е.
+21:32:44.919 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:32:44.999 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.29  у.е.
+21:32:45.077 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:32:45.164 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:32:45.249 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:32:45.333 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.24  у.е.
+21:32:45.412 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.24  у.е.
+21:32:45.493 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.49  у.е.
+21:32:45.571 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.75  у.е.
+21:32:45.658 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.49  у.е.
+21:32:45.746 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+21:32:45.833 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.15  у.е.
+21:32:45.914 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:32:46.000 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:32:46.083 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 2.50  у.е.
+21:32:46.203 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 1.25  у.е.
+21:32:46.284 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+21:32:46.374 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.50  у.е.
+21:32:46.474 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:32:46.561 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:32:46.650 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:32:46.752 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:32:46.854 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:32:46.940 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:32:47.026 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.75  у.е.
+21:32:47.113 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 1.35  у.е.
+21:32:47.192 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 1.80  у.е.
+21:32:47.276 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:32:47.359 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.90  у.е.
+21:32:47.451 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:32:47.542 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 1.01  у.е.
+21:32:47.621 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 1.64  у.е.
+21:32:47.708 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 0.60  у.е.
+21:32:47.791 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 1.63  у.е.
+21:32:47.874 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 1.00  у.е.
+21:32:47.952 [pool-10-thread-3] code.parsers.rss.feeds.AdvegoFeed - 1.42  у.е.
+21:32:47.992 [pool-10-thread-3] bootstrap.liftweb.GetJobsService - code.parsers.rss.WebLancerHtmlFeed$@6d287508 ...
+21:32:47.992 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Processing Weblancer:
+21:32:47.992 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - page 1
+21:32:48.344 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:32:48.505 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:32:48.665 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:32:49.159 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:32:49.864 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:32:50.393 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:32:50.861 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:32:51.290 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:32:51.732 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:32:52.232 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:32:52.714 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:32:53.261 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:32:53.820 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:32:54.320 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:32:54.830 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:32:55.041 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:32:55.275 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:32:55.741 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:32:56.239 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:32:56.712 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:32:57.257 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - page 2
+21:32:57.451 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:32:57.898 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:32:58.392 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:32:59.142 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:32:59.731 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:00.322 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:00.796 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:01.554 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:02.142 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:02.875 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:03.357 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:03.847 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:04.420 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:05.072 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:05.743 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:06.362 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:07.202 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:07.748 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:08.656 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:09.240 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:09.821 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - page 3
+21:33:10.052 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:11.121 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:11.694 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:12.301 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:12.763 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:13.437 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:13.972 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:14.565 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:15.061 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:15.577 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:16.087 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:16.716 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:17.328 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:17.873 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:18.658 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:19.407 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:19.890 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:20.374 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:20.973 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:21.706 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:22.342 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - page 4
+21:33:22.550 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:23.075 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:23.565 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:24.103 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:24.616 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:25.204 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:25.790 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:26.330 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:26.870 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:26.968 [qtp571486553-88] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802503HQKRQ0/ returned 200, took 2 Milliseconds
+21:33:27.353 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:27.868 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:28.482 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:29.099 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:29.554 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:30.224 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:30.919 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:31.709 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:32.275 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:32.951 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:33.480 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:34.022 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - page 5
+21:33:34.239 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:34.702 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:35.237 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:35.683 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:36.137 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:36.679 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:37.172 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:37.725 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:38.260 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:38.809 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:39.446 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:40.057 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:40.677 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:41.200 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:41.751 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:42.316 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:42.907 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:43.558 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:44.154 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:44.768 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:33:45.331 [pool-10-thread-3] code.parsers.rss.WebLancerHtmlFeed - total posts : 100
+21:34:43.102 [qtp571486553-138] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802503HQKRQ0/ returned 200, took 6 Milliseconds
+21:35:58.985 [qtp571486553-138] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802503HQKRQ0/ returned 200, took 2 Milliseconds
+21:36:40.352 [pool-10-thread-12] bootstrap.liftweb.MainActor - Getting posts is initialized
+21:36:40.352 [pool-10-thread-12] bootstrap.liftweb.GetJobsService - Iteration 4 : Getting jobs from feeds List(code.parsers.rss.feeds.MyPublicationFeed$@2e72c101, code.parsers.rss.feeds.EtextFeed$@77ae3174, code.parsers.rss.feeds.AdvegoFeed$@3ae41fd3, code.parsers.rss.WebLancerHtmlFeed$@6d287508)...
+21:36:40.352 [pool-10-thread-12] bootstrap.liftweb.GetJobsService - code.parsers.rss.feeds.MyPublicationFeed$@2e72c101 ...
+21:36:40.510 [pool-10-thread-12] c.p.rss.feeds.MyPublicationFeed - Got 50 items
+21:36:40.510 [pool-10-thread-12] c.p.rss.feeds.MyPublicationFeed - Processing 50 posts
+21:36:42.798 [pool-10-thread-12] bootstrap.liftweb.GetJobsService - code.parsers.rss.feeds.EtextFeed$@77ae3174 ...
+21:36:43.303 [pool-10-thread-12] code.parsers.rss.feeds.EtextFeed - Got 20 items
+21:36:43.304 [pool-10-thread-12] code.parsers.rss.feeds.EtextFeed - Processing 20 posts
+21:36:44.260 [pool-10-thread-12] bootstrap.liftweb.GetJobsService - code.parsers.rss.feeds.AdvegoFeed$@3ae41fd3 ...
+21:36:44.532 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - Got 50 items
+21:36:44.532 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - Trying to add 50 posts
+21:36:44.636 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:36:44.782 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 1.00  у.е.
+21:36:44.930 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+21:36:45.046 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.26  у.е.
+21:36:45.190 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.22  у.е.
+21:36:45.311 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:36:45.430 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:36:45.560 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.50  у.е.
+21:36:45.687 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.80  у.е.
+21:36:45.823 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.50  у.е.
+21:36:45.962 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.50  у.е.
+21:36:46.091 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:36:46.218 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:36:46.356 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.15  у.е.
+21:36:46.487 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:36:46.612 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.29  у.е.
+21:36:46.739 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:36:46.873 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:36:47.003 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:36:47.137 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.24  у.е.
+21:36:47.254 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.24  у.е.
+21:36:47.354 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.49  у.е.
+21:36:47.462 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.75  у.е.
+21:36:47.564 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.49  у.е.
+21:36:47.656 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+21:36:47.758 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.15  у.е.
+21:36:47.858 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:36:47.945 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:36:48.044 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 2.50  у.е.
+21:36:48.139 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 1.25  у.е.
+21:36:48.241 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+21:36:48.343 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.50  у.е.
+21:36:48.439 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:36:48.533 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:36:48.629 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:36:48.721 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:36:48.814 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:36:48.917 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:36:49.020 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.75  у.е.
+21:36:49.111 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 1.35  у.е.
+21:36:49.204 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 1.80  у.е.
+21:36:49.301 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:36:49.393 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.90  у.е.
+21:36:49.485 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:36:49.586 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 1.01  у.е.
+21:36:49.691 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 1.64  у.е.
+21:36:49.784 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 0.60  у.е.
+21:36:49.888 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 1.63  у.е.
+21:36:49.981 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 1.00  у.е.
+21:36:50.077 [pool-10-thread-12] code.parsers.rss.feeds.AdvegoFeed - 1.42  у.е.
+21:36:50.136 [pool-10-thread-12] bootstrap.liftweb.GetJobsService - code.parsers.rss.WebLancerHtmlFeed$@6d287508 ...
+21:36:50.137 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Processing Weblancer:
+21:36:50.137 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - page 1
+21:36:50.444 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:36:50.635 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:36:50.801 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:36:51.201 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:36:51.568 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:36:51.906 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:36:52.256 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:36:52.598 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:36:52.941 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:36:53.283 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:36:53.631 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:36:53.965 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:36:54.432 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:36:54.844 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:36:55.405 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:36:55.910 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:36:56.471 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:36:56.806 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:36:57.144 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:36:57.911 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:36:58.266 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - page 2
+21:36:58.463 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:36:58.880 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:36:59.376 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:36:59.844 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:00.243 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:00.428 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:00.765 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:01.261 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:01.898 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:02.366 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:02.740 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:03.175 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:03.630 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:04.100 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:04.461 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:04.983 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:05.476 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:05.905 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:06.846 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:07.248 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:07.633 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - page 3
+21:37:07.882 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:08.515 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:09.064 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:09.532 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:09.903 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:10.338 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:10.884 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:11.322 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:11.710 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:12.082 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:12.528 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:13.051 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:13.408 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:13.843 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:14.253 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:14.774 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:14.978 [qtp571486553-91] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802503HQKRQ0/ returned 200, took 3 Milliseconds
+21:37:15.252 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:15.634 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:16.013 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:16.439 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:16.776 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - page 4
+21:37:16.996 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:17.627 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:18.028 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:18.385 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:18.765 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:19.213 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:19.674 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:20.004 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:20.433 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:20.783 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:21.131 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:21.637 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:22.048 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:22.421 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:23.156 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:23.571 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:23.846 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:24.230 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:24.587 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:24.964 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:25.385 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - page 5
+21:37:25.680 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:26.203 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:26.533 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:26.909 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:27.284 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:27.721 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:28.083 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:28.512 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:28.856 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:29.225 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:29.426 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:29.850 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:30.253 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:30.620 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:31.087 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:31.458 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:31.872 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:32.416 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:32.820 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:33.223 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:37:33.914 [pool-10-thread-12] code.parsers.rss.WebLancerHtmlFeed - total posts : 100
+21:38:30.989 [qtp571486553-138] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802503HQKRQ0/ returned 200, took 1 Milliseconds
+21:39:46.971 [qtp571486553-138] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802503HQKRQ0/ returned 200, took 2 Milliseconds
+21:40:40.352 [pool-10-thread-6] bootstrap.liftweb.MainActor - Getting posts is initialized
+21:40:40.353 [pool-10-thread-6] bootstrap.liftweb.GetJobsService - Iteration 5 : Getting jobs from feeds List(code.parsers.rss.feeds.MyPublicationFeed$@2e72c101, code.parsers.rss.feeds.EtextFeed$@77ae3174, code.parsers.rss.feeds.AdvegoFeed$@3ae41fd3, code.parsers.rss.WebLancerHtmlFeed$@6d287508)...
+21:40:40.353 [pool-10-thread-6] bootstrap.liftweb.GetJobsService - code.parsers.rss.feeds.MyPublicationFeed$@2e72c101 ...
+21:40:40.522 [pool-10-thread-6] c.p.rss.feeds.MyPublicationFeed - Got 50 items
+21:40:40.522 [pool-10-thread-6] c.p.rss.feeds.MyPublicationFeed - Processing 50 posts
+21:40:43.058 [pool-10-thread-6] bootstrap.liftweb.GetJobsService - code.parsers.rss.feeds.EtextFeed$@77ae3174 ...
+21:40:43.591 [pool-10-thread-6] code.parsers.rss.feeds.EtextFeed - Got 20 items
+21:40:43.591 [pool-10-thread-6] code.parsers.rss.feeds.EtextFeed - Processing 20 posts
+21:40:43.687 [pool-10-thread-6] bootstrap.liftweb.GetJobsService - code.parsers.rss.feeds.AdvegoFeed$@3ae41fd3 ...
+21:40:43.850 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - Got 50 items
+21:40:43.850 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - Trying to add 50 posts
+21:40:43.917 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:40:44.035 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 1.00  у.е.
+21:40:44.133 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+21:40:44.245 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.26  у.е.
+21:40:44.332 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.22  у.е.
+21:40:44.421 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:40:44.506 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:40:44.592 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.50  у.е.
+21:40:44.684 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.80  у.е.
+21:40:44.814 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.50  у.е.
+21:40:44.898 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.50  у.е.
+21:40:44.981 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:40:45.096 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:40:45.184 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.15  у.е.
+21:40:45.276 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:40:45.364 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.29  у.е.
+21:40:45.451 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:40:45.537 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:40:45.625 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:40:45.720 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.24  у.е.
+21:40:45.830 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.24  у.е.
+21:40:45.931 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.49  у.е.
+21:40:46.021 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.75  у.е.
+21:40:46.105 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.49  у.е.
+21:40:46.221 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+21:40:46.399 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.15  у.е.
+21:40:46.542 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:40:46.686 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:40:46.837 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 2.50  у.е.
+21:40:46.981 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 1.25  у.е.
+21:40:47.127 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+21:40:47.271 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.50  у.е.
+21:40:47.409 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:40:47.543 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:40:47.685 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:40:47.824 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:40:47.958 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:40:48.099 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:40:48.213 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.75  у.е.
+21:40:48.334 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 1.35  у.е.
+21:40:48.445 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 1.80  у.е.
+21:40:48.552 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:40:48.661 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.90  у.е.
+21:40:48.777 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:40:48.896 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 1.01  у.е.
+21:40:49.006 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 1.64  у.е.
+21:40:49.114 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.60  у.е.
+21:40:49.229 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 1.63  у.е.
+21:40:49.341 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 1.00  у.е.
+21:40:49.476 [pool-10-thread-6] code.parsers.rss.feeds.AdvegoFeed - 1.42  у.е.
+21:40:49.516 [pool-10-thread-6] bootstrap.liftweb.GetJobsService - code.parsers.rss.WebLancerHtmlFeed$@6d287508 ...
+21:40:49.516 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Processing Weblancer:
+21:40:49.516 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - page 1
+21:40:49.819 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:40:49.985 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:40:50.144 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:40:50.299 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:40:50.751 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:40:51.187 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:40:51.653 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:40:52.196 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:40:52.631 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:40:53.114 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:40:53.597 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:40:54.123 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:40:54.353 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:40:54.562 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:40:55.046 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:40:55.244 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:40:55.654 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:40:56.133 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:40:56.653 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:40:57.100 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:40:57.705 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - page 2
+21:40:57.907 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:40:58.346 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:40:59.050 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:40:59.614 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:00.119 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:00.652 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:01.216 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:01.579 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:02.144 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:02.851 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:02.911 [qtp571486553-138] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802503HQKRQ0/ returned 200, took 3 Milliseconds
+21:41:03.329 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:03.872 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:04.418 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:04.682 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:05.170 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:05.819 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:06.404 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:06.942 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:07.828 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:08.481 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:08.965 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - page 3
+21:41:09.216 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:09.944 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:10.514 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:10.976 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:11.487 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:12.196 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:12.733 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:13.316 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:13.957 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:14.425 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:15.052 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:15.614 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:16.094 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:16.697 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:17.142 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:17.899 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:18.377 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:18.906 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:19.513 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:20.186 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:20.772 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - page 4
+21:41:20.985 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:21.487 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:22.001 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:22.442 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:23.181 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:23.702 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:23.960 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:24.416 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:25.084 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:25.557 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:26.010 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:26.558 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:27.135 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:27.798 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:28.552 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:29.118 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:29.821 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:30.407 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:30.917 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:31.437 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:32.036 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - page 5
+21:41:32.250 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:32.733 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:33.196 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:33.650 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:34.102 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:34.551 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:35.075 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:35.667 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:36.159 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:36.678 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:37.386 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:37.964 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:38.516 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:39.009 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:39.569 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:40.074 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:40.721 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:41.292 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:41.920 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:42.539 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:41:43.105 [pool-10-thread-6] code.parsers.rss.WebLancerHtmlFeed - total posts : 100
+21:42:19.012 [qtp571486553-89] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802503HQKRQ0/ returned 200, took 2 Milliseconds
+21:43:34.888 [qtp571486553-88] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1221814802503HQKRQ0/ returned 200, took 2 Milliseconds
+21:44:40.352 [pool-10-thread-14] bootstrap.liftweb.MainActor - Getting posts is initialized
+21:44:40.352 [pool-10-thread-14] bootstrap.liftweb.GetJobsService - Iteration 6 : Getting jobs from feeds List(code.parsers.rss.feeds.MyPublicationFeed$@2e72c101, code.parsers.rss.feeds.EtextFeed$@77ae3174, code.parsers.rss.feeds.AdvegoFeed$@3ae41fd3, code.parsers.rss.WebLancerHtmlFeed$@6d287508)...
+21:44:40.352 [pool-10-thread-14] bootstrap.liftweb.GetJobsService - code.parsers.rss.feeds.MyPublicationFeed$@2e72c101 ...
+21:44:40.501 [pool-10-thread-14] c.p.rss.feeds.MyPublicationFeed - Got 50 items
+21:44:40.501 [pool-10-thread-14] c.p.rss.feeds.MyPublicationFeed - Processing 50 posts
+21:44:42.746 [pool-10-thread-14] bootstrap.liftweb.GetJobsService - code.parsers.rss.feeds.EtextFeed$@77ae3174 ...
+21:44:43.231 [pool-10-thread-14] code.parsers.rss.feeds.EtextFeed - Got 20 items
+21:44:43.231 [pool-10-thread-14] code.parsers.rss.feeds.EtextFeed - Processing 20 posts
+21:44:44.173 [pool-10-thread-14] bootstrap.liftweb.GetJobsService - code.parsers.rss.feeds.AdvegoFeed$@3ae41fd3 ...
+21:44:44.333 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - Got 50 items
+21:44:44.334 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - Trying to add 50 posts
+21:44:44.401 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:44:44.524 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 1.00  у.е.
+21:44:44.602 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+21:44:44.682 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.26  у.е.
+21:44:44.759 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.22  у.е.
+21:44:44.878 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:44:44.970 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:44:45.081 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.50  у.е.
+21:44:45.166 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.80  у.е.
+21:44:45.256 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.50  у.е.
+21:44:45.364 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.50  у.е.
+21:44:45.453 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:44:45.541 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:44:45.624 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.15  у.е.
+21:44:45.726 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:44:45.812 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.29  у.е.
+21:44:45.890 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:44:45.968 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:44:46.071 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:44:46.165 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.24  у.е.
+21:44:46.278 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.24  у.е.
+21:44:46.367 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.49  у.е.
+21:44:46.451 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.75  у.е.
+21:44:46.527 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.49  у.е.
+21:44:46.625 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+21:44:46.701 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.15  у.е.
+21:44:46.781 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:44:46.870 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:44:46.961 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 2.50  у.е.
+21:44:47.057 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 1.25  у.е.
+21:44:47.144 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+21:44:47.223 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.50  у.е.
+21:44:47.301 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:44:47.383 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:44:47.480 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:44:47.561 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:44:47.638 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.32  у.е.
+21:44:47.723 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:44:47.816 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.75  у.е.
+21:44:47.896 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 1.35  у.е.
+21:44:47.981 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 1.80  у.е.
+21:44:48.060 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:44:48.147 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.90  у.е.
+21:44:48.222 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:44:48.309 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 1.01  у.е.
+21:44:48.392 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 1.64  у.е.
+21:44:48.469 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 0.60  у.е.
+21:44:48.555 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 1.63  у.е.
+21:44:48.643 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 1.00  у.е.
+21:44:48.725 [pool-10-thread-14] code.parsers.rss.feeds.AdvegoFeed - 1.42  у.е.
+21:44:48.767 [pool-10-thread-14] bootstrap.liftweb.GetJobsService - code.parsers.rss.WebLancerHtmlFeed$@6d287508 ...
+21:44:48.767 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Processing Weblancer:
+21:44:48.767 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - page 1
+21:44:49.032 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:44:49.202 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:44:49.395 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:44:49.881 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:44:50.276 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:44:50.659 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:44:51.318 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:44:51.644 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:44:51.959 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:44:52.281 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:44:52.607 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:44:52.919 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:44:53.458 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:44:54.093 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:44:54.433 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:44:54.941 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:44:55.477 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:44:56.012 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:44:56.415 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:44:56.906 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:44:57.331 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - page 2
+21:44:57.539 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:44:57.947 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:44:58.340 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:44:58.879 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:44:59.278 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:44:59.644 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:44:59.994 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:00.724 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:01.122 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:01.848 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:02.247 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:02.663 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:03.005 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:03.906 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:04.417 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:05.229 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:05.691 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:06.227 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:07.173 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:07.693 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:08.301 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - page 3
+21:45:08.506 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:08.928 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:09.442 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:09.860 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:10.455 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:10.855 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:11.475 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:11.847 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:12.295 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:12.692 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:13.063 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:13.749 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:14.238 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:14.795 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:15.272 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:15.795 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1
+21:45:16.206 [pool-10-thread-14] code.parsers.rss.WebLancerHtmlFeed - Posts on page : 1

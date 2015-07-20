@@ -1,0 +1,151 @@
+21:57:30.091 [pool-5-thread-5] bootstrap.liftweb.MainActor - Schedule cleaning db in 2015-07-21T04:57:30.081+03:00
+21:57:31.086 [pool-9-thread-1] bootstrap.liftweb.MainActor - Getting posts is initialized
+21:57:31.092 [pool-9-thread-1] bootstrap.liftweb.GetJobsService - Iteration 1 : Getting jobs from feeds List(code.parsers.rss.feeds.MyPublicationFeed$@7dc68b1b, code.parsers.rss.feeds.EtextFeed$@9f68cb7, code.parsers.rss.feeds.AdvegoFeed$@2d528549, code.parsers.rss.WebLancerHtmlFeed$@2806316f)...
+21:57:31.094 [pool-9-thread-1] bootstrap.liftweb.GetJobsService - code.parsers.rss.feeds.MyPublicationFeed$@7dc68b1b ...
+21:57:31.437 [pool-9-thread-1] c.p.rss.feeds.MyPublicationFeed - Got 50 items
+21:57:31.438 [pool-9-thread-1] c.p.rss.feeds.MyPublicationFeed - Processing 50 posts
+21:57:36.463 [pool-9-thread-1] bootstrap.liftweb.GetJobsService - code.parsers.rss.feeds.EtextFeed$@9f68cb7 ...
+21:57:36.899 [pool-9-thread-1] code.parsers.rss.feeds.EtextFeed - Got 20 items
+21:57:36.900 [pool-9-thread-1] code.parsers.rss.feeds.EtextFeed - Processing 20 posts
+21:57:37.872 [pool-9-thread-1] bootstrap.liftweb.GetJobsService - code.parsers.rss.feeds.AdvegoFeed$@2d528549 ...
+21:57:38.100 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - Got 50 items
+21:57:38.101 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - Trying to add 50 posts
+21:57:38.177 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.24  у.е.
+21:57:38.504 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.90  у.е.
+21:57:38.835 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.11  у.е.
+21:57:39.107 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.90  у.е.
+21:57:39.406 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:57:39.707 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 2.00  у.е.
+21:57:40.002 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 2.00  у.е.
+21:57:40.272 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 1.00  у.е.
+21:57:40.530 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 1.15  у.е.
+21:57:40.769 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.70  у.е.
+21:57:41.055 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 1.15  у.е.
+21:57:41.400 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 1.15  у.е.
+21:57:41.669 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:57:41.965 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 2.00  у.е.
+21:57:42.619 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.05  у.е.
+21:57:42.975 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.05  у.е.
+21:57:43.274 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:57:43.581 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:57:43.877 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.25  у.е.
+21:57:44.140 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 1.00  у.е.
+21:57:44.439 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.88  у.е.
+21:57:44.735 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 1.00  у.е.
+21:57:45.003 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.88  у.е.
+21:57:45.347 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.20  у.е.
+21:57:45.614 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+21:57:45.921 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+21:57:46.189 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.35  у.е.
+21:57:46.486 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:57:46.805 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+21:57:47.124 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.35  у.е.
+21:57:47.435 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+21:57:47.763 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.24  у.е.
+21:57:48.041 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.18  у.е.
+21:57:48.347 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 1.86  у.е.
+21:57:48.617 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+21:57:48.881 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.23  у.е.
+21:57:49.121 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.70  у.е.
+21:57:49.391 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+21:57:49.918 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.70  у.е.
+21:57:50.318 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 6.00  у.е.
+21:57:50.817 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.15  у.е.
+21:57:51.348 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+21:57:51.736 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+21:57:52.003 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.14  у.е.
+21:57:52.276 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.14  у.е.
+21:57:52.509 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.20  у.е.
+21:57:52.750 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.24  у.е.
+21:57:52.993 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.22  у.е.
+21:57:53.591 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 0.20  у.е.
+21:57:53.924 [pool-9-thread-1] code.parsers.rss.feeds.AdvegoFeed - 1.68  у.е.
+21:57:54.133 [pool-9-thread-1] bootstrap.liftweb.GetJobsService - code.parsers.rss.WebLancerHtmlFeed$@2806316f ...
+21:57:54.157 [pool-9-thread-1] code.parsers.rss.WebLancerHtmlFeed - Processing Weblancer:
+21:57:54.160 [pool-9-thread-1] code.parsers.rss.WebLancerHtmlFeed - page 1
+21:58:09.509 [qtp1519956593-72] net.liftweb.util.TimeHelpers - Service request (GET) / returned 200, took 725 Milliseconds
+21:58:09.650 [qtp1519956593-74] net.liftweb.util.TimeHelpers - Service request (GET) /ajax_request/liftAjax.js returned 200, took 94 Milliseconds
+21:58:09.842 [qtp1519956593-91] net.liftweb.util.TimeHelpers - Service request (HEAD) /lib/images/bg@2x.jpg returned 404, took 13 Milliseconds
+21:58:09.843 [qtp1519956593-75] net.liftweb.util.TimeHelpers - Service request (HEAD) /lib/images/combine_how_to@2x.gif returned 404, took 13 Milliseconds
+21:58:09.843 [qtp1519956593-72] net.liftweb.util.TimeHelpers - Service request (HEAD) /lib/images/andrey@2x.jpg returned 404, took 13 Milliseconds
+21:58:09.842 [qtp1519956593-73] net.liftweb.util.TimeHelpers - Service request (HEAD) /lib/images/nikita@2x.jpg returned 404, took 12 Milliseconds
+21:59:07.673 [qtp1519956593-72] net.liftweb.util.TimeHelpers - Service request (GET) /main returned 200, took 289 Milliseconds
+21:59:07.802 [qtp1519956593-75] net.liftweb.util.TimeHelpers - Service request (GET) /ajax_request/liftAjax.js returned 200, took 41 Milliseconds
+21:59:07.824 [qtp1519956593-93] net.liftweb.util.TimeHelpers - Service request (GET) /styles/images/ui-bg_highlight-soft_100_eeeeee_1x100.png returned 404, took 3 Milliseconds
+21:59:08.179 [qtp1519956593-91] net.liftweb.util.TimeHelpers - Service request (GET) /favicon.ico returned 404, took 2 Milliseconds
+21:59:33.798 [qtp1519956593-74] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1344595617615ENSPBF-00/ returned 200, took 84 Milliseconds
+22:00:23.887 [qtp1519956593-72] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1344595617615ENSPBF/ returned 200, took 9 Milliseconds
+22:01:31.060 [pool-9-thread-6] bootstrap.liftweb.MainActor - Getting posts is initialized
+22:01:31.061 [pool-9-thread-6] bootstrap.liftweb.GetJobsService - Iteration 2 : Getting jobs from feeds List(code.parsers.rss.feeds.MyPublicationFeed$@7dc68b1b, code.parsers.rss.feeds.EtextFeed$@9f68cb7, code.parsers.rss.feeds.AdvegoFeed$@2d528549, code.parsers.rss.WebLancerHtmlFeed$@2806316f)...
+22:01:31.061 [pool-9-thread-6] bootstrap.liftweb.GetJobsService - code.parsers.rss.feeds.MyPublicationFeed$@7dc68b1b ...
+22:01:31.214 [pool-9-thread-6] c.p.rss.feeds.MyPublicationFeed - Got 50 items
+22:01:31.214 [pool-9-thread-6] c.p.rss.feeds.MyPublicationFeed - Processing 50 posts
+22:01:33.405 [pool-9-thread-6] bootstrap.liftweb.GetJobsService - code.parsers.rss.feeds.EtextFeed$@9f68cb7 ...
+22:01:34.018 [pool-9-thread-6] code.parsers.rss.feeds.EtextFeed - Got 20 items
+22:01:34.019 [pool-9-thread-6] code.parsers.rss.feeds.EtextFeed - Processing 20 posts
+22:01:34.515 [pool-9-thread-6] bootstrap.liftweb.GetJobsService - code.parsers.rss.feeds.AdvegoFeed$@2d528549 ...
+22:01:34.697 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - Got 50 items
+22:01:34.698 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - Trying to add 50 posts
+22:01:34.770 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.24  у.е.
+22:01:34.887 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.90  у.е.
+22:01:34.968 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.11  у.е.
+22:01:35.050 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.90  у.е.
+22:01:35.131 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+22:01:35.211 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 2.00  у.е.
+22:01:35.298 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 2.00  у.е.
+22:01:35.384 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 1.00  у.е.
+22:01:35.479 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 1.15  у.е.
+22:01:35.561 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.70  у.е.
+22:01:35.641 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 1.15  у.е.
+22:01:35.755 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 1.15  у.е.
+22:01:35.996 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+22:01:36.138 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 2.00  у.е.
+22:01:36.256 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.05  у.е.
+22:01:36.368 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.05  у.е.
+22:01:36.492 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+22:01:36.604 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+22:01:36.719 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.25  у.е.
+22:01:37.138 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 1.00  у.е.
+22:01:37.325 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.88  у.е.
+22:01:37.480 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 1.00  у.е.
+22:01:37.625 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.88  у.е.
+22:01:37.771 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.20  у.е.
+22:01:37.894 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+22:01:38.009 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+22:01:38.127 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.35  у.е.
+22:01:38.245 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+22:01:38.358 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.30  у.е.
+22:01:38.482 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.35  у.е.
+22:01:38.595 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+22:01:38.709 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.24  у.е.
+22:01:38.834 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.18  у.е.
+22:01:38.953 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 1.86  у.е.
+22:01:39.067 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+22:01:39.184 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.23  у.е.
+22:01:39.301 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.70  у.е.
+22:01:39.720 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+22:01:39.902 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.70  у.е.
+22:01:40.058 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 6.00  у.е.
+22:01:40.221 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.15  у.е.
+22:01:40.338 [qtp1519956593-73] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1344595617615ENSPBF/ returned 200, took 3 Milliseconds
+22:01:40.388 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.10  у.е.
+22:01:40.535 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.40  у.е.
+22:01:40.685 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.14  у.е.
+22:01:40.802 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.14  у.е.
+22:01:40.919 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.20  у.е.
+22:01:41.031 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.24  у.е.
+22:01:41.147 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.22  у.е.
+22:01:41.261 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 0.20  у.е.
+22:01:41.385 [pool-9-thread-6] code.parsers.rss.feeds.AdvegoFeed - 1.68  у.е.
+22:01:41.430 [pool-9-thread-6] bootstrap.liftweb.GetJobsService - code.parsers.rss.WebLancerHtmlFeed$@2806316f ...
+22:01:41.430 [pool-9-thread-6] code.parsers.rss.WebLancerHtmlFeed - Processing Weblancer:
+22:01:41.430 [pool-9-thread-6] code.parsers.rss.WebLancerHtmlFeed - page 1
+22:02:55.872 [qtp1519956593-72] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1344595617615ENSPBF/ returned 200, took 3 Milliseconds
+22:04:11.866 [qtp1519956593-72] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1344595617615ENSPBF/ returned 200, took 2 Milliseconds
+22:05:27.867 [qtp1519956593-75] net.liftweb.util.TimeHelpers - Service request (POST) /ajax_request/F1344595617615ENSPBF/ returned 200, took 3 Milliseconds
+22:05:31.061 [pool-9-thread-15] bootstrap.liftweb.MainActor - Getting posts is initialized
+22:05:31.061 [pool-9-thread-15] bootstrap.liftweb.GetJobsService - Iteration 3 : Getting jobs from feeds List(code.parsers.rss.feeds.MyPublicationFeed$@7dc68b1b, code.parsers.rss.feeds.EtextFeed$@9f68cb7, code.parsers.rss.feeds.AdvegoFeed$@2d528549, code.parsers.rss.WebLancerHtmlFeed$@2806316f)...
+22:05:31.061 [pool-9-thread-15] bootstrap.liftweb.GetJobsService - code.parsers.rss.feeds.MyPublicationFeed$@7dc68b1b ...
+22:05:31.219 [pool-9-thread-15] c.p.rss.feeds.MyPublicationFeed - Got 50 items
+22:05:31.219 [pool-9-thread-15] c.p.rss.feeds.MyPublicationFeed - Processing 50 posts
+22:05:33.427 [pool-9-thread-15] bootstrap.liftweb.GetJobsService - code.parsers.rss.feeds.EtextFeed$@9f68cb7 ...

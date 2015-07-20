@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html lang="en" ng-app="LimoApp" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.ico">
+
+    <title>Combine</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+    <style>
+        @media (min-width: 992px)
+        .col-md-7 {
+        width: 65.33333333%;
+        }
+        </style>
+    <![endif]-->
+</head>
+
+<body >
+<!--<form action="#" novalidate name="register" ng-submit="(submitted=true) && register.$invalid" ng-class="{true:'submitted'}[submitted]">-->
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Combine</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <form class="navbar-form navbar-right lift:MainPage.buttons" role="form">
+                <div class="form-group">
+                    <input type="text" placeholder="Email" class="form-control" id="login-email">
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Password" class="form-control" id="login-pass">
+                </div>
+                <span>
+                <button type="submit" class="btn btn-success" id = "btn-login">Вход</button>
+                <button type="button" class="btn btn-primary" id="btn-register">Регистрация</button>
+                <button type="button" class="btn btn-primary" id="btn-start">Start</button>
+                </span>
+                    <!-- Modal -->
+                <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Регистрация</h4>
+                            </div>
+                            <div class ="lift:Modal.registerForm modal-body" id ="modal-body">
+                            </div>
+                            <!--<div class="modal-body" id="modal-body">-->
+
+                            <!--</div>-->
+
+                            <!--<div class="modal-footer">-->
+                                <!--<button type="button" class="btn btn-primary">Зарегистрироваться</button>-->
+                                <!--<button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>-->
+                            <!--</div>-->
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div><!--/.navbar-collapse -->
+    </div>
+</nav>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="container" id="wrap">
+    <div class="row">
+        <div class="lift:MainPage.filters col-md-2 col-lg-2 filters">
+            <div class="filtersWrapper">
+                <div>
+                    <h2>Фильтры</h2>
+                </div>
+                <div class="form-group">
+                    <label for="text">Текст</label>
+                    <input type="text" class="form-control" placeholder="Текст" id="text">
+                </div>
+                <div class="form-group">
+                    <label for="from-date">От</label>
+                    <p class="input-group">
+                        <input id="from-date"type="text" class="form-control" datepicker-popup="{{format}}" is-open="openedFrom" min-date="2005-01-01" max-date="'2015-06-22'" datepicker-options="dateOptions" close-text="Close" />
+                          <span class="input-group-btn">
+                            <button type="button" class="btn btn-default"><i class="glyphicon glyphicon-calendar"></i></button>
+                          </span>
+                    </p>
+                </div>
+                <div class="form-group">
+                    <label for="until-date">До</label>
+                    <p class="input-group">
+                        <input id="until-date" type="text" class="form-control" datepicker-popup="{{format}}" is-open="openedTo" min-date="2005-01-01" max-date="'2015-06-22'" datepicker-options="dateOptions" close-text="Close" />
+                  <span class="input-group-btn">
+                    <button type="button" class="btn btn-default" ><i class="glyphicon glyphicon-calendar"></i></button>
+                  </span>
+                    </p>
+                </div>
+                <div class="form-group">
+                    <label for="from-budg">Мин. бюджет</label>
+                    <input id="from-budg" type="number" class="form-control" placeholder="В разработке" step="10" disabled>
+                </div>
+                <div class="form-group">
+                    <label for="until-budg">Макс. бюджет</label>
+                    <input id="until-budg" type="number" class="form-control" placeholder="В разработке" step="10" disabled>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-10 col-lg-10 green main">
+                <div class="row">
+                    <h2 class="col-md-2 col-lg-2">Заказы</h2>
+                    <div class="form-group ordersnumber col-md-3 col-md-offset-7 col-lg-3 col-lg-offset-7">
+                        <label for="postsNumber">Заказов на странице</label>
+                        <select class="lift:MainPage.postsNumberSelector form-control ordersNumberSelect" id="postsNumber" >
+                            <option value="25">25</option>
+                            <option value="50">50</option>
+                            <option value="75">75</option>
+                            <option value="100">100</option>
+                        </select>
+                    </div>
+                </div>
+            <div class="row">
+                <nav class="col-md-8 col-md-offset-2">
+                    <ul class="lift:MainPage.renderPagination pagination"></ul>
+                </nav>
+            </div>
+                <div class="row post-container">
+                    <div class="lift:MainPage.renderPosts col-md-12 col-lg-12" id="posts">
+                        <div class="row customRow description" onclick="test(this)" data-id="{{$index}}">
+                            <div class="context col-md-9 col-lg-9 " id="{{$index}}">
+                                <h3 class="panel-title"></h3>
+                                <div class="shortDescription">
+                                </div>
+                                <!--<a href class="showPost btn btn-success" onclick="test(this)" data-id="{{$index}}">Развернуть</a>-->
+                            </div>
+                            <div class="rightContext col-md-3 col-lg-3 budg">
+                                <div class="budget"></div>
+                                <div class="date"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <ul class="lift:MainPage.renderBottomPagination pagination"></ul>
+                    </div>
+                </div>
+        </div>
+
+
+    </div>
+</div>
+    <footer>
+        <div class="container" id="footer">
+        <div class="row">
+            <div class="col-md-3 col-md-offset-9">
+                <p class="footer-text">All rights reserved &copy; Combine 2014</p>
+            </div>
+        </div>
+        </div>
+    </footer>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!--<script src="/bower_components/angular/angular.min.js"></script>-->
+
+<script src="bower_components/ui-bootstrap-custom-0.12.0.js"></script>
+<script src="bower_components/ui-bootstrap-custom-tpls-0.12.0.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/contollers/mainController.js"></script>
+<script src="js/services/main.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/animation.js"></script>
+
+<script>
+    $('#registr').click(function(){
+            showModal();
+    });
+
+    function showModal(){
+        $('#modal').modal('show');
+    }
+
+    function hideModal(){
+        $('#modal').modal('hide');
+    }
+</script>
+</body>
+</html>

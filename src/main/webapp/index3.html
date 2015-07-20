@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Combine</title>
+    <link href="styles/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="styles/uniform.default.min.css" rel="stylesheet" type="text/css">
+    <link href="styles/jquery-ui.css" rel="stylesheet" type="text/css">
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="wrap">
+
+    <!--Navigation bar start-->
+
+    <nav class="navbar navbar-combine">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand logo" href="#">Combine</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="lift:MainPage.renderHeader navbar-nav navbar-right">
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li id="login"><a href="#" data-toggle="modal" data-target="#auth">Login</a></li>
+                    <li id="logout"><a href="#">Logout</a></li>
+                    <li class="signup" id="signup"><a href="#" data-toggle="modal" data-target="#registr">Sign Up</a></li>
+                    <li id="welcome-label"><a href="#">Welcome, user!</a></li>
+                </ul>
+
+                <!--Modals start-->
+                <div class="modal fade" id="auth" tabindex="-1" role="dialog" aria-labelledby="auth-label" aria-hidden="true">
+                    <div class="modal-dialog register">
+                        <div class="modal-content ">
+
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                <h4 class="modal-title" id="auth-label">Authorization</h4>
+                            </div>
+                            <div class="lift:Modal.loginForm modal-body">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <label for="email-login">Email</label>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <input type="email" id="email-login">
+                                        <div class="error email-error" id="mod-log-email"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <label for="password-login">Password</label>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <input type="password" id="password-login">
+                                        <div class="error password-error" id="mod-log-pass"></div>
+                                    </div>
+                                </div>
+                                <div class="row submit-btn">
+                                    <div class="col-md-offset-4 col-md-4">
+                                        <button class="login-btn">Login</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="modal fade" id="registr" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                    <div class="lift:Modal.registerForm modal-dialog register">
+                        <div class="modal-content ">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                <h4 class="modal-title" id="mySmallModalLabel">Registration</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <label for="email">Email</label>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <input type="email" id="email">
+                                        <div id="mod-reg-email" class="error email-modal-error"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <label for="password">Password</label>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <input type="password" id="password">
+                                        <div class="error user_t_password-error" id="mod-reg-pass"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <label for="confirm">Confirm password</label>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <input type="password" id="confirm">
+                                        <div class="error user_t_password-error" id="id="mod-reg-confirm""></div>
+                                    </div>
+                                </div>
+                                <div class="row submit-btn">
+                                    <div class="col-md-offset-4 col-md-4">
+                                        <button class="signup-btn" id="mod-btn-register">Sign up</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Modals end-->
+
+            </div>
+        </div>
+    </nav>
+
+    <!--Navigation bar end-->
+    <!--Filters start-->
+
+    <div class="container">
+        <div class="row">
+            <div class="lift:MainPage.filters col-md-3 filters">
+                <div class="innerFilters">
+                    <div id="feeds">
+                    <label>
+                        <input type="checkbox" class="check" value="Advego" id="Advego" name="advego"/>
+                        Advego
+                    </label>
+                    <label>
+                        <input type="checkbox" class="check" value="WebLancer" id="WebLancer" name="weblancer"/>
+                        WebLancer
+                    </label>
+                    </div>
+                    <div class="form-group searchText">
+                        <i></i>
+                        <input type="text" placeholder="Search" class="searchInput"  id="text">
+                    </div>
+                    <div class="line"></div>
+                    <div class="form-group searchText fromDate">
+                        <p class="input-group">
+                            <input placeholder="From date" id="fromDate">
+                          <span class="input-group-btn">
+                            <button type="button" id="from-btn" class="btn btn-group calendar-button"></button>
+                          </span>
+                        </p>
+                    </div>
+                    <div class="form-group searchText untilDate">
+                        <p class="input-group">
+                            <input type="text" placeholder="Until date" id="untilDate">
+                          <span class="input-group-btn">
+                            <button type="button" id="until-btn" class="btn btn-group calendar-button"></button>
+                          </span>
+                        </p>
+                    </div>
+                    <div class="line"></div>
+                    <div class="form-group budget">
+                        <p class="input-group">
+                            <label>Budget:</label>
+                            <!--<input id="amount" type="text" class="budget-input" readonly>-->
+                            <input id="min-amount" type="text">
+                            <div> - </div>
+                            <input id="max-amount" type="text">
+                        </p>
+                    </div>
+                    <div class="range-sl">
+                        <div id="slider-range" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
+                            <div class="ui-slider-range ui-widget-header ui-corner-all" style="left: 27%;"></div>
+                            <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 27%;"></span>
+                            <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 67%;"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Filters end-->
+            <!--Posts start-->
+
+            <div class="col-md-9 posts">
+                <div class="innerPosts">
+                    <div class="posts">
+                        <div class="row">
+                            <div class="col-md-9">
+                                <select id="sort" class="sort lift:MainPage.sortBySelector">
+                                    <option selected disabled>Sort by</option>
+                                    <option>From old to new</option>
+                                    <option>From new to old</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3 ordersNumber">
+                                <select id="posts-number" class="lift:MainPage.postsNumberSelector posts-number">
+                                    <option>25</option>
+                                    <option>50</option>
+                                    <option>75</option>
+                                    <option>100</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="lift:MainPage.renderPosts">
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-md-offset-0">
+                                <ul class="lift:MainPage.renderPagination pagination posts-pagination">
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!--Posts end-->
+    <!--Footer start-->
+
+    <footer id="footer">
+        <div class="foot-nav">
+            <div>
+                <a href="#">Follow with twitter</a>
+            </div>
+            <div>/</div>
+            <div>
+                <a href="#">Pricing</a>
+            </div>
+            <div>/</div>
+            <div>
+                <a href="#">Contacts</a>
+            </div>
+            <div>/</div>
+            <div>
+                <a href="#">Login</a>
+            </div>
+            <div>/</div>
+            <div>
+                <a href="#">Sign up</a>
+            </div>
+        </div>
+        <div class="social-nav">
+            <div>
+                <a href="#">
+                    <div class="social-back">
+                        <div class="facebook"></div>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <div class="social-back social-twitter">
+                        <div class="twitter"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="copyright">
+            Combine &copy; 2014
+        </div>
+    </footer>
+
+    <!--Footer end-->
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/jquery.uniform.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/animation.js"></script>
+<script>
+    $(".check").uniform();
+    $(function() {
+    $( "#fromDate" ).datepicker();
+    $( "#fromDate" ).datepicker("option", "dateFormat", "dd-mm-yy");
+    $( "#untilDate").datepicker();
+    $( "#untilDate").datepicker("option", "dateFormat", "dd-mm-yy");
+
+
+
+        $( "#slider-range" ).slider({
+            range: true,
+            min: 0,
+            max: 1500,
+            step: 10,
+            values: [ 0, 1500 ],
+            slide: function( event, ui ) {
+                $( "#min-amount" ).val(ui.values[ 0 ]);
+                $( "#max-amount" ).val(ui.values[ 1 ]);
+            },
+            stop: function( event, ui){
+                $('#min-amount').blur();
+                $('#max-amount').blur();
+            }
+        });
+        $( "#min-amount" ).val($( "#slider-range" ).slider( "values", 0 ));
+        $( "#max-amount" ).val($( "#slider-range" ).slider( "values", 1 ));
+    });
+
+    $('#fromDate').datepicker({
+        onSelect: function(){
+            $(this).blur();
+        }
+    })
+
+    $('#untilDate').datepicker({
+        onSelect: function(){
+            $(this).blur();
+        }
+    })
+
+    $('#from-btn').click(function(){
+        $('#fromDate').datepicker('show');
+    })
+
+    $('#until-btn').click(function(){
+        $('#untilDate').datepicker('show');
+    })
+
+</script>
+</body>
+</html>

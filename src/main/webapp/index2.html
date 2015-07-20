@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Combine</title>
+    <link href="styles/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="styles/uniform.default.min.css" rel="stylesheet" type="text/css">
+    <link href="styles/jquery-ui.css" rel="stylesheet" type="text/css">
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="wrap">
+    <nav class="navbar navbar-combine">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand logo" href="#">Combine</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="navbar-nav navbar-right">
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li class="signup"><a href="#">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="lift:MainPage.filters col-md-3 filters">
+                <div class="innerFilters">
+                    <label>
+                        <input type="checkbox" class="check" value="Advego" id="Advego" name="advego"/>
+                        Advego
+                    </label>
+                    <label>
+                        <input type="checkbox" class="check" value="WebLancer" id="WebLancer" name="weblancer"/>
+                        WebLancer
+                    </label>
+                    <div class="form-group searchText">
+                        <i></i>
+                        <input type="text" placeholder="Search" class="searchInput" id="text">
+                    </div>
+                    <div class="line"></div>
+                    <div class="form-group searchText fromDate">
+                        <p class="input-group">
+                            <input id="from-date" placeholder="From date">
+                          <span class="input-group-btn">
+                            <button type="button" class="btn btn-group calendar-button"></button>
+                          </span>
+                        </p>
+                        <div class="ui-datepicker-inline ui-datepicker ui-widget own-content ui-helper-clearfix ui-corner-all" style="display: none;">
+                            <div class="ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-all">
+                                <a class="ui-datepicker-prev ui-corner-all" data-handler="prev" data-event="click" title="Prev">
+                                    <span class="ui-icon ui-icon-circle-triangle-w">Prev</span>
+                                </a>
+                                <a class="ui-datepicker-next ui-corner-all" data-handler="next" data-event="click" title="Next">
+                                    <span class="ui-icon ui-icon-circle-triangle-e">Next</span>
+                                </a><div class="ui-datepicker-title">
+                                <span class="ui-datepicker-month">February</span>&nbsp;
+                                <span class="ui-datepicker-year">2015</span>
+                            </div>
+                            </div>
+                            <table class="ui-datepicker-calendar">
+                                <thead>
+                                <tr class="table-head">
+                                    <th scope="col" class="ui-datepicker-week-end">
+                                        <span title="Sunday">Su</span>
+                                    </th>
+                                    <th scope="col">
+                                        <span title="Monday">Mo</span>
+                                    </th>
+                                    <th scope="col">
+                                        <span title="Tuesday">Tu</span>
+                                    </th>
+                                    <th scope="col">
+                                        <span title="Wednesday">We</span>
+                                    </th>
+                                    <th scope="col">
+                                        <span title="Thursday">Th</span>
+                                    </th>
+                                    <th scope="col">
+                                        <span title="Friday">Fr</span>
+                                    </th>
+                                    <th scope="col" class="ui-datepicker-week-end">
+                                        <span title="Saturday">Sa</span>
+                                    </th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="1" data-year="2015"><a class="ui-state-default" href="#">1</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="1" data-year="2015"><a class="ui-state-default" href="#">2</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="1" data-year="2015"><a class="ui-state-default" href="#">3</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="1" data-year="2015"><a class="ui-state-default" href="#">4</a></td><td class=" ui-datepicker-days-cell-over  ui-datepicker-current-day ui-datepicker-today" data-handler="selectDay" data-event="click" data-month="1" data-year="2015"><a class="ui-state-default ui-state-highlight ui-state-active" href="#">5</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="1" data-year="2015"><a class="ui-state-default" href="#">6</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="1" data-year="2015"><a class="ui-state-default" href="#">7</a></td></tr><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="1" data-year="2015"><a class="ui-state-default" href="#">8</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="1" data-year="2015"><a class="ui-state-default" href="#">9</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="1" data-year="2015"><a class="ui-state-default" href="#">10</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="1" data-year="2015"><a class="ui-state-default" href="#">11</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="1" data-year="2015"><a class="ui-state-default" href="#">12</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="1" data-year="2015"><a class="ui-state-default" href="#">13</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="1" data-year="2015"><a class="ui-state-default" href="#">14</a></td></tr><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="1" data-year="2015"><a class="ui-state-default" href="#">15</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="1" data-year="2015"><a class="ui-state-default" href="#">16</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="1" data-year="2015"><a class="ui-state-default" href="#">17</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="1" data-year="2015"><a class="ui-state-default" href="#">18</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="1" data-year="2015"><a class="ui-state-default" href="#">19</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="1" data-year="2015"><a class="ui-state-default" href="#">20</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="1" data-year="2015"><a class="ui-state-default" href="#">21</a></td></tr><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="1" data-year="2015"><a class="ui-state-default" href="#">22</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="1" data-year="2015"><a class="ui-state-default" href="#">23</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="1" data-year="2015"><a class="ui-state-default" href="#">24</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="1" data-year="2015"><a class="ui-state-default" href="#">25</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="1" data-year="2015"><a class="ui-state-default" href="#">26</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="1" data-year="2015"><a class="ui-state-default" href="#">27</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="1" data-year="2015"><a class="ui-state-default" href="#">28</a></td></tr></tbody></table></div>
+                    </div>
+                    <div class="form-group searchText untilDate">
+                        <p class="input-group">
+                            <input id="until-date" type="text" placeholder="Until date">
+                          <span class="input-group-btn">
+                            <button type="button" class="btn btn-group calendar-button"></button>
+                          </span>
+                        </p>
+                    </div>
+                    <div class="line"></div>
+                    <div class="budget">Budget, $:</div>
+                    <div class="range-sl">
+                        <div id="slider" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
+                            <div class="ui-slider-range ui-widget-header ui-corner-all" style="left: 27%;"></div>
+                            <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 27%;"></span>
+                            <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 67%;"></span>
+                        </div>
+                    </div>
+                    <div class="searchBut">
+                        <span><button>Search</button></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9 posts">
+                <div class="innerPosts">
+                    <div class="posts-selects">
+                        <select class="sort">
+                            <option selected disabled>Sort by</option>
+                            <option>fr old t new</option>
+                            <option>fr new t old</option>
+                        </select>
+                        <select class="lift:MainPage.postsNumberSelector posts-number">
+                            <option>25</option>
+                            <option>50</option>
+                            <option>75</option>
+                            <option>100</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <nav class="col-md-8 col-md-offset-2">
+                            <ul class="lift:MainPage.renderPagination pagination"></ul>
+                        </nav>
+                    </div>
+                    <div class="lift:MainPage.renderPosts posts">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <ul class="lift:MainPage.renderBottomPagination pagination"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer id="footer">
+        <div class="foot-nav">
+            <div>
+                <a href="#">Follow with twitter</a>
+            </div>
+            <div>/</div>
+            <div>
+                <a href="#">Pricing</a>
+            </div>
+            <div>/</div>
+            <div>
+                <a href="#">Contacts</a>
+            </div>
+            <div>/</div>
+            <div>
+                <a href="#">Login</a>
+            </div>
+            <div>/</div>
+            <div>
+                <a href="#">Sign up</a>
+            </div>
+        </div>
+        <div class="social-nav">
+            <div>
+                <a href="#">
+                    <div class="social-back">
+                        <div class="facebook"></div>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <div class="social-back">
+                        <div class="twitter"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="copyright">
+            Combine &copy; 2014
+        </div>
+    </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/jquery.uniform.min.js"></script>
+<script src="js/custom.js"></script>
+<script>
+    $(".check").uniform();
+    $( "#slider" ).slider({
+        range: true,
+        values: [ 17, 67 ]
+    });
+
+    $( "#datepicker" ).datepicker({
+        inline: true
+    });
+</script>
+</body>
+</html>
