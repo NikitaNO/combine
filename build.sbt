@@ -41,22 +41,20 @@ libraryDependencies += "com.fasterxml.jackson.module" % "jackson-module-scala" %
 
 libraryDependencies += "org.apache.lucene" % "lucene-core" % "5.0.0"
 
-val myProject = project.enablePlugins(DeploySSH)
-
 addCommandAlias("s","; container:start") ++
 addCommandAlias("rs","; container:stop; container:start") ++
 addCommandAlias("cucs","; container:stop; clean; compile; container:start")
 
-assemblyMergeStrategy in assembly := {
-  case PathList("javax", "servlet", xs @ _*)         => MergeStrategy.first
-  case PathList(ps @ _*) if ps.last endsWith ".html" => MergeStrategy.first
-  case PathList("META-INF", "MANIFEST.MF") => MergeStrategy.discard
-  case x => MergeStrategy.first
-}
-
-assemblyJarName in assembly := "combine.jar"
-
-mainClass in assembly := Some("code.Main")
+//assemblyMergeStrategy in assembly := {
+//  case PathList("javax", "servlet", xs @ _*)         => MergeStrategy.first
+//  case PathList(ps @ _*) if ps.last endsWith ".html" => MergeStrategy.first
+//  case PathList("META-INF", "MANIFEST.MF") => MergeStrategy.discard
+//  case x => MergeStrategy.first
+//}
+//
+//assemblyJarName in assembly := "combine.jar"
+//
+//mainClass in assembly := Some("code.Main")
 
 port in container.Configuration := 8088
 
